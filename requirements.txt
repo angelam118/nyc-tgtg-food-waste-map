@@ -1,0 +1,3 @@
+tgtg>=0.18.4
+urllib3==1.26.15
+requests
