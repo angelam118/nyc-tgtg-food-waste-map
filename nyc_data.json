@@ -1,5 +1,5 @@
 {
-  "updated_at": "2025-11-28 07:21:44",
+  "updated_at": "2025-11-28 07:29:45",
   "total_stores": 1079,
   "stores": [
     {
@@ -318,25 +318,6 @@
       "cover_image": "https://images.tgtg.ninja/item/cover/8fbaffa2-bf67-488b-b620-554d4043dcd0.jpg"
     },
     {
-      "id": "113423590583993281",
-      "name": "He He Cha (Surprise Bag)",
-      "lat": 40.7324233,
-      "lng": -73.9943254,
-      "available": 0,
-      "rating": 4.426229508196721,
-      "ratings_count": 61,
-      "price": 5.99,
-      "original_price": 18.0,
-      "currency": "USD",
-      "category": "OTHER",
-      "pickup_start": "2025-11-29T01:15:00Z",
-      "pickup_end": "2025-11-29T01:35:00Z",
-      "tags": [
-        "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
-      ],
-      "cover_image": "https://images.tgtg.ninja/item/cover/8f116082-6de4-419a-8811-9df8baee2f9d.png"
-    },
-    {
       "id": "372177",
       "name": "Madman Bakery  - Greenwich Village",
       "lat": 40.7324233,
@@ -354,6 +335,25 @@
         "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
       ],
       "cover_image": "https://images.tgtg.ninja/standard_images/BAKED_GOODS/YUzSjKG9QmU.jpg"
+    },
+    {
+      "id": "113423590583993281",
+      "name": "He He Cha (Surprise Bag)",
+      "lat": 40.7324233,
+      "lng": -73.9943254,
+      "available": 0,
+      "rating": 4.426229508196721,
+      "ratings_count": 61,
+      "price": 5.99,
+      "original_price": 18.0,
+      "currency": "USD",
+      "category": "OTHER",
+      "pickup_start": "2025-11-29T01:15:00Z",
+      "pickup_end": "2025-11-29T01:35:00Z",
+      "tags": [
+        "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
+      ],
+      "cover_image": "https://images.tgtg.ninja/item/cover/8f116082-6de4-419a-8811-9df8baee2f9d.png"
     },
     {
       "id": "1703048",
@@ -415,7 +415,7 @@
       "name": "Ambo (Surprise bag)",
       "lat": 40.7311439,
       "lng": -73.9934292,
-      "available": 6,
+      "available": 5,
       "rating": 4.6749174917491745,
       "ratings_count": 606,
       "price": 6.99,
@@ -449,6 +449,23 @@
       "cover_image": "https://images.tgtg.ninja/item/cover/d0f797e8-363d-4a66-9baa-35aa4dd50e2e.png"
     },
     {
+      "id": "143555055819964577",
+      "name": "Travelers Poets & Friends (Prodotti da forno)",
+      "lat": 40.735255,
+      "lng": -73.998673,
+      "available": 3,
+      "rating": 4.185714285714286,
+      "ratings_count": 140,
+      "price": 5.99,
+      "original_price": 18.0,
+      "currency": "USD",
+      "category": "BAKED_GOODS",
+      "pickup_start": "2025-11-28T22:00:00Z",
+      "pickup_end": "2025-11-29T00:00:00Z",
+      "tags": [],
+      "cover_image": "https://images.tgtg.ninja/standard_images/PASTRIES_AND_CAKES/qZ5lPCPvdXE.jpg"
+    },
+    {
       "id": "142100897477561121",
       "name": "Travelers Poets & Friends (Prodotti da forno)",
       "lat": 40.735255,
@@ -466,23 +483,6 @@
         "This Surprise Bag is in high demand and sells out quickly. Grab yours before it's gone!"
       ],
       "cover_image": "https://images.tgtg.ninja/standard_images/SANDWICHES/Znvxeud6sDc.jpg"
-    },
-    {
-      "id": "143555055819964577",
-      "name": "Travelers Poets & Friends (Prodotti da forno)",
-      "lat": 40.735255,
-      "lng": -73.998673,
-      "available": 3,
-      "rating": 4.185714285714286,
-      "ratings_count": 140,
-      "price": 5.99,
-      "original_price": 18.0,
-      "currency": "USD",
-      "category": "BAKED_GOODS",
-      "pickup_start": "2025-11-28T22:00:00Z",
-      "pickup_end": "2025-11-29T00:00:00Z",
-      "tags": [],
-      "cover_image": "https://images.tgtg.ninja/standard_images/PASTRIES_AND_CAKES/qZ5lPCPvdXE.jpg"
     },
     {
       "id": "142058368193909153",
@@ -815,51 +815,13 @@
       "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/52/ffb444db-9134-491a-82a4-ee0c9019442c.jpg"
     },
     {
-      "id": "181787322433665665",
-      "name": "Whole Foods - NY - Union Square (Floral Bag)",
-      "lat": 40.7348379,
-      "lng": -73.9915478,
-      "available": 0,
-      "rating": 4.6,
-      "ratings_count": 10,
-      "price": 7.99,
-      "original_price": 24.0,
-      "currency": "USD",
-      "category": "FLOWERS_PLANTS",
-      "pickup_start": "2025-11-29T01:00:00Z",
-      "pickup_end": "2025-11-29T02:00:00Z",
-      "tags": [
-        "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
-      ],
-      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/18b5c601-ffc6-4a63-afb7-0dd72166eed1.jpg"
-    },
-    {
-      "id": "181770007249584417",
-      "name": "Whole Foods - NY - Union Square (Dry Grocery Bag)",
+      "id": "181783451225925601",
+      "name": "Whole Foods - NY - Union Square (Seafood Bag)",
       "lat": 40.7348379,
       "lng": -73.9915478,
       "available": 0,
       "rating": 0,
       "ratings_count": 0,
-      "price": 6.99,
-      "original_price": 21.0,
-      "currency": "USD",
-      "category": "GROCERIES",
-      "pickup_start": "2025-11-29T01:00:00Z",
-      "pickup_end": "2025-11-29T02:00:00Z",
-      "tags": [
-        "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
-      ],
-      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/57b56100-1527-4c6a-8a58-0f6f4ec9d59c.jpg"
-    },
-    {
-      "id": "181765591970453633",
-      "name": "Whole Foods - NY - Union Square (Meat Bag)",
-      "lat": 40.7348379,
-      "lng": -73.9915478,
-      "available": 0,
-      "rating": 4.545454545454546,
-      "ratings_count": 11,
       "price": 9.99,
       "original_price": 30.0,
       "currency": "USD",
@@ -869,7 +831,7 @@
       "tags": [
         "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
       ],
-      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/b4edd366-39f3-4b2e-82d3-ad377085826e.jpg"
+      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/ab3bceef-58ae-4a0d-a74d-ab7dde811215.jpg"
     },
     {
       "id": "70701610701276737",
@@ -891,44 +853,6 @@
       "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/66e69e68-af62-44a5-9aac-80da9a555b6d.jpg"
     },
     {
-      "id": "181783451225925601",
-      "name": "Whole Foods - NY - Union Square (Seafood Bag)",
-      "lat": 40.7348379,
-      "lng": -73.9915478,
-      "available": 0,
-      "rating": 0,
-      "ratings_count": 0,
-      "price": 9.99,
-      "original_price": 30.0,
-      "currency": "USD",
-      "category": "GROCERIES",
-      "pickup_start": "2025-11-29T01:00:00Z",
-      "pickup_end": "2025-11-29T02:00:00Z",
-      "tags": [
-        "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
-      ],
-      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/ab3bceef-58ae-4a0d-a74d-ab7dde811215.jpg"
-    },
-    {
-      "id": "181773137487370881",
-      "name": "Whole Foods - NY - Union Square (Frozen Grocery Bag)",
-      "lat": 40.7348379,
-      "lng": -73.9915478,
-      "available": 0,
-      "rating": 4.0,
-      "ratings_count": 11,
-      "price": 6.99,
-      "original_price": 21.0,
-      "currency": "USD",
-      "category": "GROCERIES",
-      "pickup_start": "2025-11-29T01:00:00Z",
-      "pickup_end": "2025-11-29T02:00:00Z",
-      "tags": [
-        "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
-      ],
-      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/fae9e3b1-f3a2-4cf9-9493-5d8265c63ead.jpg"
-    },
-    {
       "id": "181771787182976801",
       "name": "Whole Foods - NY - Union Square (Refrigerated Grocery Bag)",
       "lat": 40.7348379,
@@ -946,6 +870,63 @@
         "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
       ],
       "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/fbff34d9-301e-4841-89d6-3299f29ff0ea.jpg"
+    },
+    {
+      "id": "181784765653694657",
+      "name": "Whole Foods - NY - Union Square (Produce Bag)",
+      "lat": 40.7348379,
+      "lng": -73.9915478,
+      "available": 0,
+      "rating": 0,
+      "ratings_count": 0,
+      "price": 6.99,
+      "original_price": 21.0,
+      "currency": "USD",
+      "category": "GROCERIES",
+      "pickup_start": "2025-11-29T01:00:00Z",
+      "pickup_end": "2025-11-29T02:00:00Z",
+      "tags": [
+        "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
+      ],
+      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/35b61628-012e-4e2a-8ae3-e647a64b046c.jpg"
+    },
+    {
+      "id": "181765591970453633",
+      "name": "Whole Foods - NY - Union Square (Meat Bag)",
+      "lat": 40.7348379,
+      "lng": -73.9915478,
+      "available": 0,
+      "rating": 4.545454545454546,
+      "ratings_count": 11,
+      "price": 9.99,
+      "original_price": 30.0,
+      "currency": "USD",
+      "category": "GROCERIES",
+      "pickup_start": "2025-11-29T01:00:00Z",
+      "pickup_end": "2025-11-29T02:00:00Z",
+      "tags": [
+        "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
+      ],
+      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/b4edd366-39f3-4b2e-82d3-ad377085826e.jpg"
+    },
+    {
+      "id": "181787322433665665",
+      "name": "Whole Foods - NY - Union Square (Floral Bag)",
+      "lat": 40.7348379,
+      "lng": -73.9915478,
+      "available": 0,
+      "rating": 4.6,
+      "ratings_count": 10,
+      "price": 7.99,
+      "original_price": 24.0,
+      "currency": "USD",
+      "category": "FLOWERS_PLANTS",
+      "pickup_start": "2025-11-29T01:00:00Z",
+      "pickup_end": "2025-11-29T02:00:00Z",
+      "tags": [
+        "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
+      ],
+      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/18b5c601-ffc6-4a63-afb7-0dd72166eed1.jpg"
     },
     {
       "id": "70700088374105249",
@@ -967,8 +948,8 @@
       "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/2878dda4-2d90-497d-a648-489e66e565a3.jpg"
     },
     {
-      "id": "181784765653694657",
-      "name": "Whole Foods - NY - Union Square (Produce Bag)",
+      "id": "181770007249584417",
+      "name": "Whole Foods - NY - Union Square (Dry Grocery Bag)",
       "lat": 40.7348379,
       "lng": -73.9915478,
       "available": 0,
@@ -983,7 +964,26 @@
       "tags": [
         "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
       ],
-      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/35b61628-012e-4e2a-8ae3-e647a64b046c.jpg"
+      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/57b56100-1527-4c6a-8a58-0f6f4ec9d59c.jpg"
+    },
+    {
+      "id": "181773137487370881",
+      "name": "Whole Foods - NY - Union Square (Frozen Grocery Bag)",
+      "lat": 40.7348379,
+      "lng": -73.9915478,
+      "available": 0,
+      "rating": 4.0,
+      "ratings_count": 11,
+      "price": 6.99,
+      "original_price": 21.0,
+      "currency": "USD",
+      "category": "GROCERIES",
+      "pickup_start": "2025-11-29T01:00:00Z",
+      "pickup_end": "2025-11-29T02:00:00Z",
+      "tags": [
+        "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
+      ],
+      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/fae9e3b1-f3a2-4cf9-9493-5d8265c63ead.jpg"
     },
     {
       "id": "236690",
@@ -1079,25 +1079,6 @@
       "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/18b5c601-ffc6-4a63-afb7-0dd72166eed1.jpg"
     },
     {
-      "id": "70699977577367233",
-      "name": "Whole Foods - NY - Bowery (Prepared Foods Bag)",
-      "lat": 40.7238246,
-      "lng": -73.9923102,
-      "available": 0,
-      "rating": 4.273584905660377,
-      "ratings_count": 212,
-      "price": 9.99,
-      "original_price": 30.0,
-      "currency": "USD",
-      "category": "MEAL",
-      "pickup_start": "2025-11-29T01:00:00Z",
-      "pickup_end": "2025-11-29T02:00:00Z",
-      "tags": [
-        "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
-      ],
-      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/2878dda4-2d90-497d-a648-489e66e565a3.jpg"
-    },
-    {
       "id": "181765614217056993",
       "name": "Whole Foods - NY - Bowery (Meat Bag)",
       "lat": 40.7238246,
@@ -1136,23 +1117,23 @@
       "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/66e69e68-af62-44a5-9aac-80da9a555b6d.jpg"
     },
     {
-      "id": "181784793839415105",
-      "name": "Whole Foods - NY - Bowery (Produce Bag)",
+      "id": "70699977577367233",
+      "name": "Whole Foods - NY - Bowery (Prepared Foods Bag)",
       "lat": 40.7238246,
       "lng": -73.9923102,
       "available": 0,
-      "rating": 0,
-      "ratings_count": 0,
-      "price": 6.99,
-      "original_price": 21.0,
+      "rating": 4.273584905660377,
+      "ratings_count": 212,
+      "price": 9.99,
+      "original_price": 30.0,
       "currency": "USD",
-      "category": "GROCERIES",
+      "category": "MEAL",
       "pickup_start": "2025-11-29T01:00:00Z",
       "pickup_end": "2025-11-29T02:00:00Z",
       "tags": [
         "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
       ],
-      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/35b61628-012e-4e2a-8ae3-e647a64b046c.jpg"
+      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/2878dda4-2d90-497d-a648-489e66e565a3.jpg"
     },
     {
       "id": "181783479680090657",
@@ -1172,6 +1153,25 @@
         "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
       ],
       "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/ab3bceef-58ae-4a0d-a74d-ab7dde811215.jpg"
+    },
+    {
+      "id": "181784793839415105",
+      "name": "Whole Foods - NY - Bowery (Produce Bag)",
+      "lat": 40.7238246,
+      "lng": -73.9923102,
+      "available": 0,
+      "rating": 0,
+      "ratings_count": 0,
+      "price": 6.99,
+      "original_price": 21.0,
+      "currency": "USD",
+      "category": "GROCERIES",
+      "pickup_start": "2025-11-29T01:00:00Z",
+      "pickup_end": "2025-11-29T02:00:00Z",
+      "tags": [
+        "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
+      ],
+      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/35b61628-012e-4e2a-8ae3-e647a64b046c.jpg"
     },
     {
       "id": "509683",
@@ -1635,13 +1635,13 @@
       "cover_image": "https://images.tgtg.ninja/item/cover/b6cbc96e-4be8-499d-85ee-bd364dcf6aec.jpg"
     },
     {
-      "id": "69066655609515937",
-      "name": "Gooey on The Inside Cookies - Lower Manhattan (Early Night Pick- up )",
+      "id": "70164001176961985",
+      "name": "Gooey on The Inside Cookies - Lower Manhattan (Late Night Pickup )",
       "lat": 40.7206793,
       "lng": -73.9929042,
       "available": 1,
-      "rating": 4.5,
-      "ratings_count": 92,
+      "rating": 4.554621848739496,
+      "ratings_count": 119,
       "price": 4.99,
       "original_price": 15.0,
       "currency": "USD",
@@ -1654,13 +1654,13 @@
       "cover_image": "https://images.tgtg.ninja/item/cover/a309d74c-de7b-49d2-bc32-65a7c0b5725a.jpg"
     },
     {
-      "id": "70164001176961985",
-      "name": "Gooey on The Inside Cookies - Lower Manhattan (Late Night Pickup )",
+      "id": "69066655609515937",
+      "name": "Gooey on The Inside Cookies - Lower Manhattan (Early Night Pick- up )",
       "lat": 40.7206793,
       "lng": -73.9929042,
       "available": 1,
-      "rating": 4.554621848739496,
-      "ratings_count": 119,
+      "rating": 4.5,
+      "ratings_count": 92,
       "price": 4.99,
       "original_price": 15.0,
       "currency": "USD",
@@ -1810,7 +1810,7 @@
       "name": "Juice Press - Tribeca ( )",
       "lat": 40.721825,
       "lng": -74.0097022,
-      "available": 5,
+      "available": 4,
       "rating": 4.416243654822335,
       "ratings_count": 197,
       "price": 9.99,
@@ -2639,6 +2639,82 @@
       "cover_image": "https://images.tgtg.ninja/item/cover/6e4abbda-f57f-4323-9b43-e5cff5782383.png"
     },
     {
+      "id": "181766079815467905",
+      "name": "Whole Foods - NY - Stuytown (Meat Bag)",
+      "lat": 40.7305815,
+      "lng": -73.9807517,
+      "available": 0,
+      "rating": 0,
+      "ratings_count": 0,
+      "price": 9.99,
+      "original_price": 30.0,
+      "currency": "USD",
+      "category": "GROCERIES",
+      "pickup_start": "2025-11-29T01:00:00Z",
+      "pickup_end": "2025-11-29T02:00:00Z",
+      "tags": [
+        "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
+      ],
+      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/b4edd366-39f3-4b2e-82d3-ad377085826e.jpg"
+    },
+    {
+      "id": "181770494129392769",
+      "name": "Whole Foods - NY - Stuytown (Dry Grocery Bag)",
+      "lat": 40.7305815,
+      "lng": -73.9807517,
+      "available": 0,
+      "rating": 0,
+      "ratings_count": 0,
+      "price": 6.99,
+      "original_price": 21.0,
+      "currency": "USD",
+      "category": "GROCERIES",
+      "pickup_start": "2025-11-29T01:00:00Z",
+      "pickup_end": "2025-11-29T02:00:00Z",
+      "tags": [
+        "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
+      ],
+      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/57b56100-1527-4c6a-8a58-0f6f4ec9d59c.jpg"
+    },
+    {
+      "id": "181787789487392001",
+      "name": "Whole Foods - NY - Stuytown (Floral Bag)",
+      "lat": 40.7305815,
+      "lng": -73.9807517,
+      "available": 0,
+      "rating": 0,
+      "ratings_count": 0,
+      "price": 7.99,
+      "original_price": 24.0,
+      "currency": "USD",
+      "category": "FLOWERS_PLANTS",
+      "pickup_start": "2025-11-29T01:00:00Z",
+      "pickup_end": "2025-11-29T02:00:00Z",
+      "tags": [
+        "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
+      ],
+      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/18b5c601-ffc6-4a63-afb7-0dd72166eed1.jpg"
+    },
+    {
+      "id": "181773652395222241",
+      "name": "Whole Foods - NY - Stuytown (Frozen Grocery Bag)",
+      "lat": 40.7305815,
+      "lng": -73.9807517,
+      "available": 0,
+      "rating": 0,
+      "ratings_count": 0,
+      "price": 6.99,
+      "original_price": 21.0,
+      "currency": "USD",
+      "category": "GROCERIES",
+      "pickup_start": "2025-11-29T01:00:00Z",
+      "pickup_end": "2025-11-29T02:00:00Z",
+      "tags": [
+        "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
+      ],
+      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/fae9e3b1-f3a2-4cf9-9493-5d8265c63ead.jpg"
+    },
+    {
       "id": "159398687155161505",
       "name": "Whole Foods - NY - Stuytown (Prepared Foods Bag)",
       "lat": 40.7305815,
@@ -2675,82 +2751,6 @@
         "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
       ],
       "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/66e69e68-af62-44a5-9aac-80da9a555b6d.jpg"
-    },
-    {
-      "id": "181773652395222241",
-      "name": "Whole Foods - NY - Stuytown (Frozen Grocery Bag)",
-      "lat": 40.7305815,
-      "lng": -73.9807517,
-      "available": 0,
-      "rating": 0,
-      "ratings_count": 0,
-      "price": 6.99,
-      "original_price": 21.0,
-      "currency": "USD",
-      "category": "GROCERIES",
-      "pickup_start": "2025-11-29T01:00:00Z",
-      "pickup_end": "2025-11-29T02:00:00Z",
-      "tags": [
-        "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
-      ],
-      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/fae9e3b1-f3a2-4cf9-9493-5d8265c63ead.jpg"
-    },
-    {
-      "id": "181787789487392001",
-      "name": "Whole Foods - NY - Stuytown (Floral Bag)",
-      "lat": 40.7305815,
-      "lng": -73.9807517,
-      "available": 0,
-      "rating": 0,
-      "ratings_count": 0,
-      "price": 7.99,
-      "original_price": 24.0,
-      "currency": "USD",
-      "category": "FLOWERS_PLANTS",
-      "pickup_start": "2025-11-29T01:00:00Z",
-      "pickup_end": "2025-11-29T02:00:00Z",
-      "tags": [
-        "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
-      ],
-      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/18b5c601-ffc6-4a63-afb7-0dd72166eed1.jpg"
-    },
-    {
-      "id": "181766079815467905",
-      "name": "Whole Foods - NY - Stuytown (Meat Bag)",
-      "lat": 40.7305815,
-      "lng": -73.9807517,
-      "available": 0,
-      "rating": 0,
-      "ratings_count": 0,
-      "price": 9.99,
-      "original_price": 30.0,
-      "currency": "USD",
-      "category": "GROCERIES",
-      "pickup_start": "2025-11-29T01:00:00Z",
-      "pickup_end": "2025-11-29T02:00:00Z",
-      "tags": [
-        "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
-      ],
-      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/b4edd366-39f3-4b2e-82d3-ad377085826e.jpg"
-    },
-    {
-      "id": "181783930618102625",
-      "name": "Whole Foods - NY - Stuytown (Seafood Bag)",
-      "lat": 40.7305815,
-      "lng": -73.9807517,
-      "available": 0,
-      "rating": 0,
-      "ratings_count": 0,
-      "price": 9.99,
-      "original_price": 30.0,
-      "currency": "USD",
-      "category": "GROCERIES",
-      "pickup_start": "2025-11-29T01:00:00Z",
-      "pickup_end": "2025-11-29T02:00:00Z",
-      "tags": [
-        "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
-      ],
-      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/ab3bceef-58ae-4a0d-a74d-ab7dde811215.jpg"
     },
     {
       "id": "181785261218451553",
@@ -2791,15 +2791,15 @@
       "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/fbff34d9-301e-4841-89d6-3299f29ff0ea.jpg"
     },
     {
-      "id": "181770494129392769",
-      "name": "Whole Foods - NY - Stuytown (Dry Grocery Bag)",
+      "id": "181783930618102625",
+      "name": "Whole Foods - NY - Stuytown (Seafood Bag)",
       "lat": 40.7305815,
       "lng": -73.9807517,
       "available": 0,
       "rating": 0,
       "ratings_count": 0,
-      "price": 6.99,
-      "original_price": 21.0,
+      "price": 9.99,
+      "original_price": 30.0,
       "currency": "USD",
       "category": "GROCERIES",
       "pickup_start": "2025-11-29T01:00:00Z",
@@ -2807,7 +2807,7 @@
       "tags": [
         "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
       ],
-      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/57b56100-1527-4c6a-8a58-0f6f4ec9d59c.jpg"
+      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/ab3bceef-58ae-4a0d-a74d-ab7dde811215.jpg"
     },
     {
       "id": "112647350723648193",
@@ -3165,23 +3165,23 @@
       "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/b4edd366-39f3-4b2e-82d3-ad377085826e.jpg"
     },
     {
-      "id": "70699943586750881",
-      "name": "Whole Foods - NY - Chelsea (Prepared Foods Bag)",
+      "id": "181773187907765985",
+      "name": "Whole Foods - NY - Chelsea (Frozen Grocery Bag)",
       "lat": 40.7453304,
       "lng": -73.9954677,
-      "available": 1,
-      "rating": 4.333333333333333,
-      "ratings_count": 219,
-      "price": 9.99,
-      "original_price": 30.0,
+      "available": 0,
+      "rating": 0,
+      "ratings_count": 0,
+      "price": 6.99,
+      "original_price": 21.0,
       "currency": "USD",
-      "category": "MEAL",
-      "pickup_start": "2025-11-29T02:00:00Z",
-      "pickup_end": "2025-11-29T03:00:00Z",
+      "category": "GROCERIES",
+      "pickup_start": "2025-11-29T01:00:00Z",
+      "pickup_end": "2025-11-29T02:00:00Z",
       "tags": [
-        "This Surprise Bag is a crowd favourite, with top ratings and plenty of saves."
+        "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
       ],
-      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/2878dda4-2d90-497d-a648-489e66e565a3.jpg"
+      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/fae9e3b1-f3a2-4cf9-9493-5d8265c63ead.jpg"
     },
     {
       "id": "181784814657613857",
@@ -3201,6 +3201,25 @@
         "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
       ],
       "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/35b61628-012e-4e2a-8ae3-e647a64b046c.jpg"
+    },
+    {
+      "id": "70699943586750881",
+      "name": "Whole Foods - NY - Chelsea (Prepared Foods Bag)",
+      "lat": 40.7453304,
+      "lng": -73.9954677,
+      "available": 1,
+      "rating": 4.333333333333333,
+      "ratings_count": 219,
+      "price": 9.99,
+      "original_price": 30.0,
+      "currency": "USD",
+      "category": "MEAL",
+      "pickup_start": "2025-11-29T02:00:00Z",
+      "pickup_end": "2025-11-29T03:00:00Z",
+      "tags": [
+        "This Surprise Bag is a crowd favourite, with top ratings and plenty of saves."
+      ],
+      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/2878dda4-2d90-497d-a648-489e66e565a3.jpg"
     },
     {
       "id": "70701486818303617",
@@ -3258,25 +3277,6 @@
         "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
       ],
       "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/57b56100-1527-4c6a-8a58-0f6f4ec9d59c.jpg"
-    },
-    {
-      "id": "181773187907765985",
-      "name": "Whole Foods - NY - Chelsea (Frozen Grocery Bag)",
-      "lat": 40.7453304,
-      "lng": -73.9954677,
-      "available": 0,
-      "rating": 0,
-      "ratings_count": 0,
-      "price": 6.99,
-      "original_price": 21.0,
-      "currency": "USD",
-      "category": "GROCERIES",
-      "pickup_start": "2025-11-29T01:00:00Z",
-      "pickup_end": "2025-11-29T02:00:00Z",
-      "tags": [
-        "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
-      ],
-      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/fae9e3b1-f3a2-4cf9-9493-5d8265c63ead.jpg"
     },
     {
       "id": "181787359712615041",
@@ -3514,27 +3514,8 @@
       "cover_image": "https://images.tgtg.ninja/item/cover/ceeafc54-e3b7-4fcd-80a1-724a74c90863.png"
     },
     {
-      "id": "181787323943600385",
-      "name": "Whole Foods - NY - Tribeca (Floral Bag)",
-      "lat": 40.7155341,
-      "lng": -74.0120518,
-      "available": 0,
-      "rating": 3.5,
-      "ratings_count": 12,
-      "price": 7.99,
-      "original_price": 24.0,
-      "currency": "USD",
-      "category": "FLOWERS_PLANTS",
-      "pickup_start": "2025-11-29T01:00:00Z",
-      "pickup_end": "2025-11-29T02:00:00Z",
-      "tags": [
-        "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
-      ],
-      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/18b5c601-ffc6-4a63-afb7-0dd72166eed1.jpg"
-    },
-    {
-      "id": "181770009262873217",
-      "name": "Whole Foods - NY - Tribeca (Dry Grocery Bag)",
+      "id": "181784767599855105",
+      "name": "Whole Foods - NY - Tribeca (Produce Bag)",
       "lat": 40.7155341,
       "lng": -74.0120518,
       "available": 0,
@@ -3549,26 +3530,7 @@
       "tags": [
         "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
       ],
-      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/57b56100-1527-4c6a-8a58-0f6f4ec9d59c.jpg"
-    },
-    {
-      "id": "181771788827138177",
-      "name": "Whole Foods - NY - Tribeca (Refrigerated Grocery Bag)",
-      "lat": 40.7155341,
-      "lng": -74.0120518,
-      "available": 0,
-      "rating": 0,
-      "ratings_count": 0,
-      "price": 6.99,
-      "original_price": 21.0,
-      "currency": "USD",
-      "category": "GROCERIES",
-      "pickup_start": "2025-11-29T01:00:00Z",
-      "pickup_end": "2025-11-29T02:00:00Z",
-      "tags": [
-        "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
-      ],
-      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/fbff34d9-301e-4841-89d6-3299f29ff0ea.jpg"
+      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/35b61628-012e-4e2a-8ae3-e647a64b046c.jpg"
     },
     {
       "id": "181773139198668513",
@@ -3590,8 +3552,8 @@
       "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/fae9e3b1-f3a2-4cf9-9493-5d8265c63ead.jpg"
     },
     {
-      "id": "181784767599855105",
-      "name": "Whole Foods - NY - Tribeca (Produce Bag)",
+      "id": "181771788827138177",
+      "name": "Whole Foods - NY - Tribeca (Refrigerated Grocery Bag)",
       "lat": 40.7155341,
       "lng": -74.0120518,
       "available": 0,
@@ -3606,7 +3568,26 @@
       "tags": [
         "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
       ],
-      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/35b61628-012e-4e2a-8ae3-e647a64b046c.jpg"
+      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/fbff34d9-301e-4841-89d6-3299f29ff0ea.jpg"
+    },
+    {
+      "id": "181770009262873217",
+      "name": "Whole Foods - NY - Tribeca (Dry Grocery Bag)",
+      "lat": 40.7155341,
+      "lng": -74.0120518,
+      "available": 0,
+      "rating": 0,
+      "ratings_count": 0,
+      "price": 6.99,
+      "original_price": 21.0,
+      "currency": "USD",
+      "category": "GROCERIES",
+      "pickup_start": "2025-11-29T01:00:00Z",
+      "pickup_end": "2025-11-29T02:00:00Z",
+      "tags": [
+        "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
+      ],
+      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/57b56100-1527-4c6a-8a58-0f6f4ec9d59c.jpg"
     },
     {
       "id": "70701604661472737",
@@ -3628,6 +3609,25 @@
       "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/66e69e68-af62-44a5-9aac-80da9a555b6d.jpg"
     },
     {
+      "id": "181787323943600385",
+      "name": "Whole Foods - NY - Tribeca (Floral Bag)",
+      "lat": 40.7155341,
+      "lng": -74.0120518,
+      "available": 0,
+      "rating": 3.5,
+      "ratings_count": 12,
+      "price": 7.99,
+      "original_price": 24.0,
+      "currency": "USD",
+      "category": "FLOWERS_PLANTS",
+      "pickup_start": "2025-11-29T01:00:00Z",
+      "pickup_end": "2025-11-29T02:00:00Z",
+      "tags": [
+        "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
+      ],
+      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/18b5c601-ffc6-4a63-afb7-0dd72166eed1.jpg"
+    },
+    {
       "id": "236668",
       "name": "The Bean & Bean",
       "lat": 40.7469934,
@@ -3645,25 +3645,6 @@
         "This Surprise Bag is a crowd favourite, with top ratings and plenty of saves."
       ],
       "cover_image": "https://images.tgtg.ninja/item/cover/1326fb22-2dfc-457f-b8b0-cd49e8859fdd.png"
-    },
-    {
-      "id": "48481940133980833",
-      "name": "i-Taste Express (Surprise box)",
-      "lat": 40.7456688,
-      "lng": -73.9901997,
-      "available": 3,
-      "rating": 4.689781021897811,
-      "ratings_count": 274,
-      "price": 6.99,
-      "original_price": 21.0,
-      "currency": "USD",
-      "category": "MEAL",
-      "pickup_start": "2025-11-29T01:30:00Z",
-      "pickup_end": "2025-11-29T02:00:00Z",
-      "tags": [
-        "This Surprise Bag is a crowd favourite, with top ratings and plenty of saves."
-      ],
-      "cover_image": "https://images.tgtg.ninja/item/cover/551461ef-6d9c-4ab6-8ac4-7df302550726.jpg"
     },
     {
       "id": "48062406752936577",
@@ -3685,6 +3666,25 @@
       "cover_image": "https://images.tgtg.ninja/item/cover/455d2c65-9087-4ea0-9dce-66bde6bd7f80.jpg"
     },
     {
+      "id": "48481940133980833",
+      "name": "i-Taste Express (Surprise box)",
+      "lat": 40.7456688,
+      "lng": -73.9901997,
+      "available": 3,
+      "rating": 4.689781021897811,
+      "ratings_count": 274,
+      "price": 6.99,
+      "original_price": 21.0,
+      "currency": "USD",
+      "category": "MEAL",
+      "pickup_start": "2025-11-29T01:30:00Z",
+      "pickup_end": "2025-11-29T02:00:00Z",
+      "tags": [
+        "This Surprise Bag is a crowd favourite, with top ratings and plenty of saves."
+      ],
+      "cover_image": "https://images.tgtg.ninja/item/cover/551461ef-6d9c-4ab6-8ac4-7df302550726.jpg"
+    },
+    {
       "id": "176610330072107713",
       "name": "Yasubee - 253 W 26th St. (Surprise Kit)",
       "lat": 40.7471601,
@@ -3702,25 +3702,6 @@
         "This Surprise Bag is in high demand and sells out quickly. Grab yours before it's gone!"
       ],
       "cover_image": "https://images.tgtg.ninja/item/cover/11863160-9d31-4135-8f47-a3d7b1cd96a9.png"
-    },
-    {
-      "id": "181765602171012769",
-      "name": "Whole Foods - NY - NoMad (Meat Bag)",
-      "lat": 40.7434963,
-      "lng": -73.9855379,
-      "available": 0,
-      "rating": 4.363636363636363,
-      "ratings_count": 11,
-      "price": 9.99,
-      "original_price": 30.0,
-      "currency": "USD",
-      "category": "GROCERIES",
-      "pickup_start": "2025-11-29T02:00:00Z",
-      "pickup_end": "2025-11-29T03:00:00Z",
-      "tags": [
-        "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
-      ],
-      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/b4edd366-39f3-4b2e-82d3-ad377085826e.jpg"
     },
     {
       "id": "70700046628550657",
@@ -3761,23 +3742,23 @@
       "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/ab3bceef-58ae-4a0d-a74d-ab7dde811215.jpg"
     },
     {
-      "id": "70701567151494305",
-      "name": "Whole Foods - NY - NoMad (Bakery Bag)",
+      "id": "181765602171012769",
+      "name": "Whole Foods - NY - NoMad (Meat Bag)",
       "lat": 40.7434963,
       "lng": -73.9855379,
-      "available": 1,
-      "rating": 4.674418604651163,
-      "ratings_count": 86,
-      "price": 6.99,
-      "original_price": 21.0,
+      "available": 0,
+      "rating": 4.363636363636363,
+      "ratings_count": 11,
+      "price": 9.99,
+      "original_price": 30.0,
       "currency": "USD",
-      "category": "BAKED_GOODS",
+      "category": "GROCERIES",
       "pickup_start": "2025-11-29T02:00:00Z",
       "pickup_end": "2025-11-29T03:00:00Z",
       "tags": [
-        "This Surprise Bag is in high demand and sells out quickly. Grab yours before it's gone!"
+        "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
       ],
-      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/66e69e68-af62-44a5-9aac-80da9a555b6d.jpg"
+      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/b4edd366-39f3-4b2e-82d3-ad377085826e.jpg"
     },
     {
       "id": "181784779109008129",
@@ -3799,6 +3780,25 @@
       "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/35b61628-012e-4e2a-8ae3-e647a64b046c.jpg"
     },
     {
+      "id": "70701567151494305",
+      "name": "Whole Foods - NY - NoMad (Bakery Bag)",
+      "lat": 40.7434963,
+      "lng": -73.9855379,
+      "available": 1,
+      "rating": 4.674418604651163,
+      "ratings_count": 86,
+      "price": 6.99,
+      "original_price": 21.0,
+      "currency": "USD",
+      "category": "BAKED_GOODS",
+      "pickup_start": "2025-11-29T02:00:00Z",
+      "pickup_end": "2025-11-29T03:00:00Z",
+      "tags": [
+        "This Surprise Bag is in high demand and sells out quickly. Grab yours before it's gone!"
+      ],
+      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/66e69e68-af62-44a5-9aac-80da9a555b6d.jpg"
+    },
+    {
       "id": "181771798759262753",
       "name": "Whole Foods - NY - NoMad (Refrigerated Grocery Bag)",
       "lat": 40.7434963,
@@ -3818,25 +3818,6 @@
       "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/fbff34d9-301e-4841-89d6-3299f29ff0ea.jpg"
     },
     {
-      "id": "181773150808481889",
-      "name": "Whole Foods - NY - NoMad (Frozen Grocery Bag)",
-      "lat": 40.7434963,
-      "lng": -73.9855379,
-      "available": 1,
-      "rating": 2.6363636363636362,
-      "ratings_count": 11,
-      "price": 6.99,
-      "original_price": 21.0,
-      "currency": "USD",
-      "category": "GROCERIES",
-      "pickup_start": "2025-11-29T01:00:00Z",
-      "pickup_end": "2025-11-29T02:00:00Z",
-      "tags": [
-        "This Surprise Bag is in high demand and sells out quickly. Grab yours before it's gone!"
-      ],
-      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/fae9e3b1-f3a2-4cf9-9493-5d8265c63ead.jpg"
-    },
-    {
       "id": "181787332734853505",
       "name": "Whole Foods - NY - NoMad (Floral Bag)",
       "lat": 40.7434963,
@@ -3854,6 +3835,25 @@
         "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
       ],
       "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/18b5c601-ffc6-4a63-afb7-0dd72166eed1.jpg"
+    },
+    {
+      "id": "181773150808481889",
+      "name": "Whole Foods - NY - NoMad (Frozen Grocery Bag)",
+      "lat": 40.7434963,
+      "lng": -73.9855379,
+      "available": 1,
+      "rating": 2.6363636363636362,
+      "ratings_count": 11,
+      "price": 6.99,
+      "original_price": 21.0,
+      "currency": "USD",
+      "category": "GROCERIES",
+      "pickup_start": "2025-11-29T01:00:00Z",
+      "pickup_end": "2025-11-29T02:00:00Z",
+      "tags": [
+        "This Surprise Bag is in high demand and sells out quickly. Grab yours before it's gone!"
+      ],
+      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/fae9e3b1-f3a2-4cf9-9493-5d8265c63ead.jpg"
     },
     {
       "id": "181770021006901953",
@@ -4368,25 +4368,6 @@
       "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/2878dda4-2d90-497d-a648-489e66e565a3.jpg"
     },
     {
-      "id": "181771810872402625",
-      "name": "Whole Foods - NY - Harlem (Refrigerated Grocery Bag)",
-      "lat": 40.8077045,
-      "lng": -73.9464691,
-      "available": 0,
-      "rating": 3.8823529411764706,
-      "ratings_count": 17,
-      "price": 6.99,
-      "original_price": 21.0,
-      "currency": "USD",
-      "category": "GROCERIES",
-      "pickup_start": "2025-11-29T01:00:00Z",
-      "pickup_end": "2025-11-29T02:00:00Z",
-      "tags": [
-        "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
-      ],
-      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/fbff34d9-301e-4841-89d6-3299f29ff0ea.jpg"
-    },
-    {
       "id": "181784793000565569",
       "name": "Whole Foods - NY - Harlem (Produce Bag)",
       "lat": 40.8077045,
@@ -4406,23 +4387,23 @@
       "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/35b61628-012e-4e2a-8ae3-e647a64b046c.jpg"
     },
     {
-      "id": "181765613445304321",
-      "name": "Whole Foods - NY - Harlem (Meat Bag)",
+      "id": "70701523057101793",
+      "name": "Whole Foods - NY - Harlem (Bakery Bag)",
       "lat": 40.8077045,
       "lng": -73.9464691,
-      "available": 0,
-      "rating": 3.357142857142857,
-      "ratings_count": 14,
-      "price": 9.99,
-      "original_price": 30.0,
+      "available": 2,
+      "rating": 4.08130081300813,
+      "ratings_count": 123,
+      "price": 6.99,
+      "original_price": 21.0,
       "currency": "USD",
-      "category": "GROCERIES",
+      "category": "BAKED_GOODS",
       "pickup_start": "2025-11-29T01:00:00Z",
       "pickup_end": "2025-11-29T02:00:00Z",
       "tags": [
-        "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
+        "This Surprise Bag is in high demand and sells out quickly. Grab yours before it's gone!"
       ],
-      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/b4edd366-39f3-4b2e-82d3-ad377085826e.jpg"
+      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/66e69e68-af62-44a5-9aac-80da9a555b6d.jpg"
     },
     {
       "id": "181783478841216993",
@@ -4442,6 +4423,25 @@
         "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
       ],
       "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/ab3bceef-58ae-4a0d-a74d-ab7dde811215.jpg"
+    },
+    {
+      "id": "181765613445304321",
+      "name": "Whole Foods - NY - Harlem (Meat Bag)",
+      "lat": 40.8077045,
+      "lng": -73.9464691,
+      "available": 0,
+      "rating": 3.357142857142857,
+      "ratings_count": 14,
+      "price": 9.99,
+      "original_price": 30.0,
+      "currency": "USD",
+      "category": "GROCERIES",
+      "pickup_start": "2025-11-29T01:00:00Z",
+      "pickup_end": "2025-11-29T02:00:00Z",
+      "tags": [
+        "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
+      ],
+      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/b4edd366-39f3-4b2e-82d3-ad377085826e.jpg"
     },
     {
       "id": "181770036341286849",
@@ -4482,23 +4482,23 @@
       "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/18b5c601-ffc6-4a63-afb7-0dd72166eed1.jpg"
     },
     {
-      "id": "70701523057101793",
-      "name": "Whole Foods - NY - Harlem (Bakery Bag)",
+      "id": "181771810872402625",
+      "name": "Whole Foods - NY - Harlem (Refrigerated Grocery Bag)",
       "lat": 40.8077045,
       "lng": -73.9464691,
-      "available": 2,
-      "rating": 4.08130081300813,
-      "ratings_count": 123,
+      "available": 0,
+      "rating": 3.8823529411764706,
+      "ratings_count": 17,
       "price": 6.99,
       "original_price": 21.0,
       "currency": "USD",
-      "category": "BAKED_GOODS",
+      "category": "GROCERIES",
       "pickup_start": "2025-11-29T01:00:00Z",
       "pickup_end": "2025-11-29T02:00:00Z",
       "tags": [
-        "This Surprise Bag is in high demand and sells out quickly. Grab yours before it's gone!"
+        "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
       ],
-      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/66e69e68-af62-44a5-9aac-80da9a555b6d.jpg"
+      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/fbff34d9-301e-4841-89d6-3299f29ff0ea.jpg"
     },
     {
       "id": "181773164297356417",
@@ -4596,23 +4596,6 @@
       "cover_image": "https://images.tgtg.ninja/item/cover/9f95b5f1-54cc-4905-b46b-5765683943e9.jpg"
     },
     {
-      "id": "1170320",
-      "name": "Curry King - Uptown Manhattan (Lunch Surprise Bag)",
-      "lat": 40.7995483,
-      "lng": -73.9628665,
-      "available": 15,
-      "rating": 4.414225941422594,
-      "ratings_count": 239,
-      "price": 5.99,
-      "original_price": 18.0,
-      "currency": "USD",
-      "category": "MEAL",
-      "pickup_start": "2025-11-28T16:00:00Z",
-      "pickup_end": "2025-11-28T21:55:00Z",
-      "tags": [],
-      "cover_image": "https://images.tgtg.ninja/item/cover/c9b7200d-6c9e-4e3c-8829-fe3a1c9e0ae8.jpg"
-    },
-    {
       "id": "52532279766335105",
       "name": "Curry King - Uptown Manhattan (Dinner Surprise Bag )",
       "lat": 40.7995483,
@@ -4630,13 +4613,13 @@
       "cover_image": "https://images.tgtg.ninja/item/cover/986712a1-4e15-4fb8-8255-18cf9f0ca509.jpg"
     },
     {
-      "id": "96072621930599713",
-      "name": "Spice Chicken - Inside Curry King (Lunch Surprise Bag)",
-      "lat": 40.7995692,
-      "lng": -73.9629716,
-      "available": 12,
-      "rating": 4.407407407407407,
-      "ratings_count": 108,
+      "id": "1170320",
+      "name": "Curry King - Uptown Manhattan (Lunch Surprise Bag)",
+      "lat": 40.7995483,
+      "lng": -73.9628665,
+      "available": 15,
+      "rating": 4.414225941422594,
+      "ratings_count": 239,
       "price": 5.99,
       "original_price": 18.0,
       "currency": "USD",
@@ -4644,7 +4627,7 @@
       "pickup_start": "2025-11-28T16:00:00Z",
       "pickup_end": "2025-11-28T21:55:00Z",
       "tags": [],
-      "cover_image": "https://images.tgtg.ninja/item/cover/86800cdb-bf2b-4a9f-9795-869ac7b9abdd.jpg"
+      "cover_image": "https://images.tgtg.ninja/item/cover/c9b7200d-6c9e-4e3c-8829-fe3a1c9e0ae8.jpg"
     },
     {
       "id": "109368569075922497",
@@ -4696,6 +4679,23 @@
       "pickup_end": "2025-11-29T04:55:00Z",
       "tags": [],
       "cover_image": "https://images.tgtg.ninja/item/cover/d7f9cbb4-988d-43ef-a534-ce8952318db1.jpg"
+    },
+    {
+      "id": "96072621930599713",
+      "name": "Spice Chicken - Inside Curry King (Lunch Surprise Bag)",
+      "lat": 40.7995692,
+      "lng": -73.9629716,
+      "available": 12,
+      "rating": 4.407407407407407,
+      "ratings_count": 108,
+      "price": 5.99,
+      "original_price": 18.0,
+      "currency": "USD",
+      "category": "MEAL",
+      "pickup_start": "2025-11-28T16:00:00Z",
+      "pickup_end": "2025-11-28T21:55:00Z",
+      "tags": [],
+      "cover_image": "https://images.tgtg.ninja/item/cover/86800cdb-bf2b-4a9f-9795-869ac7b9abdd.jpg"
     },
     {
       "id": "645695",
@@ -5127,15 +5127,15 @@
       "cover_image": "https://images.tgtg.ninja/item/cover/a1f57f58-25d7-4aca-b722-0a9868cc7d58.jpg"
     },
     {
-      "id": "181765591098055169",
-      "name": "Whole Foods - NY - 97th Street (Meat Bag)",
+      "id": "181784764781284225",
+      "name": "Whole Foods - NY - 97th Street (Produce Bag)",
       "lat": 40.7946801,
       "lng": -73.9666433,
       "available": 0,
       "rating": 0,
       "ratings_count": 0,
-      "price": 9.99,
-      "original_price": 30.0,
+      "price": 6.99,
+      "original_price": 21.0,
       "currency": "USD",
       "category": "GROCERIES",
       "pickup_start": "2025-11-29T02:00:00Z",
@@ -5143,7 +5143,7 @@
       "tags": [
         "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
       ],
-      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/b4edd366-39f3-4b2e-82d3-ad377085826e.jpg"
+      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/35b61628-012e-4e2a-8ae3-e647a64b046c.jpg"
     },
     {
       "id": "181783450353511265",
@@ -5203,15 +5203,15 @@
       "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/18b5c601-ffc6-4a63-afb7-0dd72166eed1.jpg"
     },
     {
-      "id": "181784764781284225",
-      "name": "Whole Foods - NY - 97th Street (Produce Bag)",
+      "id": "181765591098055169",
+      "name": "Whole Foods - NY - 97th Street (Meat Bag)",
       "lat": 40.7946801,
       "lng": -73.9666433,
       "available": 0,
       "rating": 0,
       "ratings_count": 0,
-      "price": 6.99,
-      "original_price": 21.0,
+      "price": 9.99,
+      "original_price": 30.0,
       "currency": "USD",
       "category": "GROCERIES",
       "pickup_start": "2025-11-29T02:00:00Z",
@@ -5219,7 +5219,7 @@
       "tags": [
         "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
       ],
-      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/35b61628-012e-4e2a-8ae3-e647a64b046c.jpg"
+      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/b4edd366-39f3-4b2e-82d3-ad377085826e.jpg"
     },
     {
       "id": "70701613687604097",
@@ -5607,25 +5607,6 @@
       "cover_image": "https://images.tgtg.ninja/item/cover/66a11d23-b36b-4b79-9bbe-31b225efe847.jpg"
     },
     {
-      "id": "97148887248563233",
-      "name": "Ole & Steen - Upper East Side (Meal Surprise Bag)",
-      "lat": 40.7799634,
-      "lng": -73.9554821,
-      "available": 3,
-      "rating": 4.377906976744186,
-      "ratings_count": 172,
-      "price": 6.99,
-      "original_price": 21.0,
-      "currency": "USD",
-      "category": "MEAL",
-      "pickup_start": "2025-11-28T23:30:00Z",
-      "pickup_end": "2025-11-28T23:50:00Z",
-      "tags": [
-        "This Surprise Bag is in high demand and sells out quickly. Grab yours before it's gone!"
-      ],
-      "cover_image": "https://images.tgtg.ninja/item/cover/4ec0b85a-e7f1-4a14-aab7-29d950a4a064.jpg"
-    },
-    {
       "id": "97149647323552577",
       "name": "Ole & Steen - Upper East Side (Baked Goods Surprise Bag)",
       "lat": 40.7799634,
@@ -5645,80 +5626,23 @@
       "cover_image": "https://images.tgtg.ninja/item/cover/a7fc9b1e-23a0-47e8-b510-538b81288554.jpg"
     },
     {
-      "id": "181765592708655841",
-      "name": "Whole Foods - NY - Upper East Side (Meat Bag)",
-      "lat": 40.7795613,
-      "lng": -73.9532233,
-      "available": 0,
-      "rating": 0,
-      "ratings_count": 0,
-      "price": 9.99,
-      "original_price": 30.0,
-      "currency": "USD",
-      "category": "GROCERIES",
-      "pickup_start": "2025-11-29T01:00:00Z",
-      "pickup_end": "2025-11-29T02:00:00Z",
-      "tags": [
-        "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
-      ],
-      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/b4edd366-39f3-4b2e-82d3-ad377085826e.jpg"
-    },
-    {
-      "id": "181784766693893569",
-      "name": "Whole Foods - NY - Upper East Side (Produce Bag)",
-      "lat": 40.7795613,
-      "lng": -73.9532233,
-      "available": 0,
-      "rating": 3.411764705882353,
-      "ratings_count": 17,
+      "id": "97148887248563233",
+      "name": "Ole & Steen - Upper East Side (Meal Surprise Bag)",
+      "lat": 40.7799634,
+      "lng": -73.9554821,
+      "available": 3,
+      "rating": 4.377906976744186,
+      "ratings_count": 172,
       "price": 6.99,
       "original_price": 21.0,
       "currency": "USD",
-      "category": "GROCERIES",
-      "pickup_start": "2025-11-29T01:00:00Z",
-      "pickup_end": "2025-11-29T02:00:00Z",
+      "category": "MEAL",
+      "pickup_start": "2025-11-28T23:30:00Z",
+      "pickup_end": "2025-11-28T23:50:00Z",
       "tags": [
-        "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
+        "This Surprise Bag is in high demand and sells out quickly. Grab yours before it's gone!"
       ],
-      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/35b61628-012e-4e2a-8ae3-e647a64b046c.jpg"
-    },
-    {
-      "id": "181770008256237665",
-      "name": "Whole Foods - NY - Upper East Side (Dry Grocery Bag)",
-      "lat": 40.7795613,
-      "lng": -73.9532233,
-      "available": 0,
-      "rating": 0,
-      "ratings_count": 0,
-      "price": 6.99,
-      "original_price": 21.0,
-      "currency": "USD",
-      "category": "GROCERIES",
-      "pickup_start": "2025-11-29T01:00:00Z",
-      "pickup_end": "2025-11-29T02:00:00Z",
-      "tags": [
-        "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
-      ],
-      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/57b56100-1527-4c6a-8a58-0f6f4ec9d59c.jpg"
-    },
-    {
-      "id": "181773138359787233",
-      "name": "Whole Foods - NY - Upper East Side (Frozen Grocery Bag)",
-      "lat": 40.7795613,
-      "lng": -73.9532233,
-      "available": 0,
-      "rating": 0,
-      "ratings_count": 0,
-      "price": 6.99,
-      "original_price": 21.0,
-      "currency": "USD",
-      "category": "GROCERIES",
-      "pickup_start": "2025-11-29T01:00:00Z",
-      "pickup_end": "2025-11-29T02:00:00Z",
-      "tags": [
-        "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
-      ],
-      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/fae9e3b1-f3a2-4cf9-9493-5d8265c63ead.jpg"
+      "cover_image": "https://images.tgtg.ninja/item/cover/4ec0b85a-e7f1-4a14-aab7-29d950a4a064.jpg"
     },
     {
       "id": "70701607748485985",
@@ -5759,6 +5683,25 @@
       "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/2878dda4-2d90-497d-a648-489e66e565a3.jpg"
     },
     {
+      "id": "181784766693893569",
+      "name": "Whole Foods - NY - Upper East Side (Produce Bag)",
+      "lat": 40.7795613,
+      "lng": -73.9532233,
+      "available": 0,
+      "rating": 3.411764705882353,
+      "ratings_count": 17,
+      "price": 6.99,
+      "original_price": 21.0,
+      "currency": "USD",
+      "category": "GROCERIES",
+      "pickup_start": "2025-11-29T01:00:00Z",
+      "pickup_end": "2025-11-29T02:00:00Z",
+      "tags": [
+        "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
+      ],
+      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/35b61628-012e-4e2a-8ae3-e647a64b046c.jpg"
+    },
+    {
       "id": "181771788055400001",
       "name": "Whole Foods - NY - Upper East Side (Refrigerated Grocery Bag)",
       "lat": 40.7795613,
@@ -5778,6 +5721,25 @@
       "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/fbff34d9-301e-4841-89d6-3299f29ff0ea.jpg"
     },
     {
+      "id": "181765592708655841",
+      "name": "Whole Foods - NY - Upper East Side (Meat Bag)",
+      "lat": 40.7795613,
+      "lng": -73.9532233,
+      "available": 0,
+      "rating": 0,
+      "ratings_count": 0,
+      "price": 9.99,
+      "original_price": 30.0,
+      "currency": "USD",
+      "category": "GROCERIES",
+      "pickup_start": "2025-11-29T01:00:00Z",
+      "pickup_end": "2025-11-29T02:00:00Z",
+      "tags": [
+        "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
+      ],
+      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/b4edd366-39f3-4b2e-82d3-ad377085826e.jpg"
+    },
+    {
       "id": "181787323138284961",
       "name": "Whole Foods - NY - Upper East Side (Floral Bag)",
       "lat": 40.7795613,
@@ -5795,6 +5757,44 @@
         "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
       ],
       "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/18b5c601-ffc6-4a63-afb7-0dd72166eed1.jpg"
+    },
+    {
+      "id": "181770008256237665",
+      "name": "Whole Foods - NY - Upper East Side (Dry Grocery Bag)",
+      "lat": 40.7795613,
+      "lng": -73.9532233,
+      "available": 0,
+      "rating": 0,
+      "ratings_count": 0,
+      "price": 6.99,
+      "original_price": 21.0,
+      "currency": "USD",
+      "category": "GROCERIES",
+      "pickup_start": "2025-11-29T01:00:00Z",
+      "pickup_end": "2025-11-29T02:00:00Z",
+      "tags": [
+        "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
+      ],
+      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/57b56100-1527-4c6a-8a58-0f6f4ec9d59c.jpg"
+    },
+    {
+      "id": "181773138359787233",
+      "name": "Whole Foods - NY - Upper East Side (Frozen Grocery Bag)",
+      "lat": 40.7795613,
+      "lng": -73.9532233,
+      "available": 0,
+      "rating": 0,
+      "ratings_count": 0,
+      "price": 6.99,
+      "original_price": 21.0,
+      "currency": "USD",
+      "category": "GROCERIES",
+      "pickup_start": "2025-11-29T01:00:00Z",
+      "pickup_end": "2025-11-29T02:00:00Z",
+      "tags": [
+        "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
+      ],
+      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/fae9e3b1-f3a2-4cf9-9493-5d8265c63ead.jpg"
     },
     {
       "id": "179736648358336001",
@@ -6624,25 +6624,6 @@
       "cover_image": "https://images.tgtg.ninja/item/cover/67511da2-bee6-44dc-a61f-e6fac9a39ee0.jpg"
     },
     {
-      "id": "181785224558543617",
-      "name": "Whole Foods - NJ - Edgewater (Produce Bag)",
-      "lat": 40.8252882,
-      "lng": -73.9737283,
-      "available": 0,
-      "rating": 4.32258064516129,
-      "ratings_count": 62,
-      "price": 6.99,
-      "original_price": 21.0,
-      "currency": "USD",
-      "category": "GROCERIES",
-      "pickup_start": "2025-11-29T01:00:00Z",
-      "pickup_end": "2025-11-29T02:00:00Z",
-      "tags": [
-        "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
-      ],
-      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/35b61628-012e-4e2a-8ae3-e647a64b046c.jpg"
-    },
-    {
       "id": "181787746024811649",
       "name": "Whole Foods - NJ - Edgewater (Floral Bag)",
       "lat": 40.8252882,
@@ -6681,23 +6662,23 @@
       "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/0b2fd563-121d-4628-ad67-e76114110837.jpg"
     },
     {
-      "id": "181766037531185633",
-      "name": "Whole Foods - NJ - Edgewater (Meat Bag)",
+      "id": "27559212539551265",
+      "name": "Whole Foods - NJ - Edgewater (Prepared Foods Bag)",
       "lat": 40.8252882,
       "lng": -73.9737283,
       "available": 0,
-      "rating": 4.0,
-      "ratings_count": 10,
+      "rating": 4.0245098039215685,
+      "ratings_count": 204,
       "price": 9.99,
       "original_price": 30.0,
       "currency": "USD",
-      "category": "GROCERIES",
+      "category": "MEAL",
       "pickup_start": "2025-11-29T01:00:00Z",
       "pickup_end": "2025-11-29T02:00:00Z",
       "tags": [
         "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
       ],
-      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/b4edd366-39f3-4b2e-82d3-ad377085826e.jpg"
+      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/2878dda4-2d90-497d-a648-489e66e565a3.jpg"
     },
     {
       "id": "27549593557643297",
@@ -6719,23 +6700,42 @@
       "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/66e69e68-af62-44a5-9aac-80da9a555b6d.jpg"
     },
     {
-      "id": "27559212539551265",
-      "name": "Whole Foods - NJ - Edgewater (Prepared Foods Bag)",
+      "id": "181766037531185633",
+      "name": "Whole Foods - NJ - Edgewater (Meat Bag)",
       "lat": 40.8252882,
       "lng": -73.9737283,
       "available": 0,
-      "rating": 4.0245098039215685,
-      "ratings_count": 204,
+      "rating": 4.0,
+      "ratings_count": 10,
       "price": 9.99,
       "original_price": 30.0,
       "currency": "USD",
-      "category": "MEAL",
+      "category": "GROCERIES",
       "pickup_start": "2025-11-29T01:00:00Z",
       "pickup_end": "2025-11-29T02:00:00Z",
       "tags": [
         "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
       ],
-      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/2878dda4-2d90-497d-a648-489e66e565a3.jpg"
+      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/b4edd366-39f3-4b2e-82d3-ad377085826e.jpg"
+    },
+    {
+      "id": "181785224558543617",
+      "name": "Whole Foods - NJ - Edgewater (Produce Bag)",
+      "lat": 40.8252882,
+      "lng": -73.9737283,
+      "available": 0,
+      "rating": 4.32258064516129,
+      "ratings_count": 62,
+      "price": 6.99,
+      "original_price": 21.0,
+      "currency": "USD",
+      "category": "GROCERIES",
+      "pickup_start": "2025-11-29T01:00:00Z",
+      "pickup_end": "2025-11-29T02:00:00Z",
+      "tags": [
+        "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
+      ],
+      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/35b61628-012e-4e2a-8ae3-e647a64b046c.jpg"
     },
     {
       "id": "375134",
@@ -6797,7 +6797,7 @@
       "name": "Krave Pizza (Surprise Bag)",
       "lat": 40.7693069,
       "lng": -73.9583377,
-      "available": 1,
+      "available": 0,
       "rating": 4.909090909090909,
       "ratings_count": 44,
       "price": 4.99,
@@ -6807,7 +6807,7 @@
       "pickup_start": "2025-11-28T07:30:00Z",
       "pickup_end": "2025-11-28T08:00:00Z",
       "tags": [
-        "This is a highly rated Surprise Bag that deserves more love. Don't miss out on this secret favourite!"
+        "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
       ],
       "cover_image": "https://images.tgtg.ninja/item/cover/332519fd-b83f-4784-b388-a02e96ea7432.png"
     },
@@ -6852,7 +6852,7 @@
       "name": "Charles Pan-Fried Chicken - 72nd St.",
       "lat": 40.7778955,
       "lng": -73.980581,
-      "available": 1,
+      "available": 0,
       "rating": 4.621794871794871,
       "ratings_count": 156,
       "price": 5.99,
@@ -6862,7 +6862,7 @@
       "pickup_start": "2025-11-29T04:00:00Z",
       "pickup_end": "2025-11-29T04:30:00Z",
       "tags": [
-        "This Surprise Bag is in high demand and sells out quickly. Grab yours before it's gone!"
+        "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
       ],
       "cover_image": "https://images.tgtg.ninja/item/cover/9d114ef9-ef33-4c9a-9358-dc8f484a91d6.png"
     },
@@ -7844,42 +7844,23 @@
       "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/66e69e68-af62-44a5-9aac-80da9a555b6d.jpg"
     },
     {
-      "id": "181787358437560769",
-      "name": "Whole Foods - NY - Columbus Circle (Floral Bag)",
+      "id": "70699949589108033",
+      "name": "Whole Foods - NY - Columbus Circle (Prepared Foods Bag)",
       "lat": 40.7685526,
       "lng": -73.9831866,
       "available": 0,
-      "rating": 0,
-      "ratings_count": 0,
-      "price": 7.99,
-      "original_price": 24.0,
-      "currency": "USD",
-      "category": "FLOWERS_PLANTS",
-      "pickup_start": "2025-11-29T01:00:00Z",
-      "pickup_end": "2025-11-29T02:00:00Z",
-      "tags": [
-        "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
-      ],
-      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/18b5c601-ffc6-4a63-afb7-0dd72166eed1.jpg"
-    },
-    {
-      "id": "181783497128408385",
-      "name": "Whole Foods - NY - Columbus Circle (Seafood Bag)",
-      "lat": 40.7685526,
-      "lng": -73.9831866,
-      "available": 0,
-      "rating": 4.5,
-      "ratings_count": 10,
+      "rating": 4.257281553398058,
+      "ratings_count": 206,
       "price": 9.99,
       "original_price": 30.0,
       "currency": "USD",
-      "category": "GROCERIES",
+      "category": "MEAL",
       "pickup_start": "2025-11-29T01:00:00Z",
-      "pickup_end": "2025-11-29T02:00:00Z",
+      "pickup_end": "2025-11-29T03:00:00Z",
       "tags": [
         "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
       ],
-      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/ab3bceef-58ae-4a0d-a74d-ab7dde811215.jpg"
+      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/2878dda4-2d90-497d-a648-489e66e565a3.jpg"
     },
     {
       "id": "181773186095839905",
@@ -7920,25 +7901,6 @@
       "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/57b56100-1527-4c6a-8a58-0f6f4ec9d59c.jpg"
     },
     {
-      "id": "181765632736209569",
-      "name": "Whole Foods - NY - Columbus Circle (Meat Bag)",
-      "lat": 40.7685526,
-      "lng": -73.9831866,
-      "available": 0,
-      "rating": 3.6153846153846154,
-      "ratings_count": 13,
-      "price": 9.99,
-      "original_price": 30.0,
-      "currency": "USD",
-      "category": "GROCERIES",
-      "pickup_start": "2025-11-29T01:00:00Z",
-      "pickup_end": "2025-11-29T02:00:00Z",
-      "tags": [
-        "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
-      ],
-      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/b4edd366-39f3-4b2e-82d3-ad377085826e.jpg"
-    },
-    {
       "id": "181784812745027585",
       "name": "Whole Foods - NY - Columbus Circle (Produce Bag)",
       "lat": 40.7685526,
@@ -7958,42 +7920,42 @@
       "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/35b61628-012e-4e2a-8ae3-e647a64b046c.jpg"
     },
     {
-      "id": "70699949589108033",
-      "name": "Whole Foods - NY - Columbus Circle (Prepared Foods Bag)",
+      "id": "181783497128408385",
+      "name": "Whole Foods - NY - Columbus Circle (Seafood Bag)",
       "lat": 40.7685526,
       "lng": -73.9831866,
       "available": 0,
-      "rating": 4.257281553398058,
-      "ratings_count": 206,
+      "rating": 4.5,
+      "ratings_count": 10,
       "price": 9.99,
       "original_price": 30.0,
       "currency": "USD",
-      "category": "MEAL",
+      "category": "GROCERIES",
       "pickup_start": "2025-11-29T01:00:00Z",
-      "pickup_end": "2025-11-29T03:00:00Z",
+      "pickup_end": "2025-11-29T02:00:00Z",
       "tags": [
         "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
       ],
-      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/2878dda4-2d90-497d-a648-489e66e565a3.jpg"
+      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/ab3bceef-58ae-4a0d-a74d-ab7dde811215.jpg"
     },
     {
-      "id": "232858",
-      "name": "Tartinery  - Columbus Circle (Assorted Baked Goods)",
+      "id": "181787358437560769",
+      "name": "Whole Foods - NY - Columbus Circle (Floral Bag)",
       "lat": 40.7685526,
       "lng": -73.9831866,
-      "available": 6,
-      "rating": 4.578231292517007,
-      "ratings_count": 294,
-      "price": 4.99,
-      "original_price": 15.0,
+      "available": 0,
+      "rating": 0,
+      "ratings_count": 0,
+      "price": 7.99,
+      "original_price": 24.0,
       "currency": "USD",
-      "category": "BAKED_GOODS",
-      "pickup_start": "2025-11-28T23:00:00Z",
-      "pickup_end": "2025-11-29T00:15:00Z",
+      "category": "FLOWERS_PLANTS",
+      "pickup_start": "2025-11-29T01:00:00Z",
+      "pickup_end": "2025-11-29T02:00:00Z",
       "tags": [
-        "This Surprise Bag is in high demand and sells out quickly. Grab yours before it's gone!"
+        "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
       ],
-      "cover_image": "https://images.tgtg.ninja/item/cover/92e89964-dccf-46de-afda-8eebaae4b901.jpg"
+      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/18b5c601-ffc6-4a63-afb7-0dd72166eed1.jpg"
     },
     {
       "id": "181771829657913825",
@@ -8015,6 +7977,44 @@
       "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/fbff34d9-301e-4841-89d6-3299f29ff0ea.jpg"
     },
     {
+      "id": "181765632736209569",
+      "name": "Whole Foods - NY - Columbus Circle (Meat Bag)",
+      "lat": 40.7685526,
+      "lng": -73.9831866,
+      "available": 0,
+      "rating": 3.6153846153846154,
+      "ratings_count": 13,
+      "price": 9.99,
+      "original_price": 30.0,
+      "currency": "USD",
+      "category": "GROCERIES",
+      "pickup_start": "2025-11-29T01:00:00Z",
+      "pickup_end": "2025-11-29T02:00:00Z",
+      "tags": [
+        "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
+      ],
+      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/b4edd366-39f3-4b2e-82d3-ad377085826e.jpg"
+    },
+    {
+      "id": "232858",
+      "name": "Tartinery  - Columbus Circle (Assorted Baked Goods)",
+      "lat": 40.7685526,
+      "lng": -73.9831866,
+      "available": 6,
+      "rating": 4.578231292517007,
+      "ratings_count": 294,
+      "price": 4.99,
+      "original_price": 15.0,
+      "currency": "USD",
+      "category": "BAKED_GOODS",
+      "pickup_start": "2025-11-28T23:00:00Z",
+      "pickup_end": "2025-11-29T00:15:00Z",
+      "tags": [
+        "This Surprise Bag is in high demand and sells out quickly. Grab yours before it's gone!"
+      ],
+      "cover_image": "https://images.tgtg.ninja/item/cover/92e89964-dccf-46de-afda-8eebaae4b901.jpg"
+    },
+    {
       "id": "233765",
       "name": "Tartinery  - Columbus Circle (Savory Foods)",
       "lat": 40.7685526,
@@ -8034,13 +8034,13 @@
       "cover_image": "https://images.tgtg.ninja/item/cover/23158d41-3842-4e65-8db9-b16cf2d7d5f0.png"
     },
     {
-      "id": "174276012463443329",
-      "name": "FreshDirect - Brooklyn - 630 Flushing Ave (Protein Surprise Bag)",
+      "id": "179992891151315233",
+      "name": "FreshDirect - Brooklyn - 630 Flushing Ave (Produce Surprise Bag)",
       "lat": 40.6998337,
       "lng": -73.9482534,
       "available": 0,
-      "rating": 4.912280701754386,
-      "ratings_count": 57,
+      "rating": 4.775510204081633,
+      "ratings_count": 49,
       "price": 9.99,
       "original_price": 30.0,
       "currency": "USD",
@@ -8050,7 +8050,7 @@
       "tags": [
         "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
       ],
-      "cover_image": "https://images.tgtg.ninja/item/cover/9e151046-cb1e-4059-90f1-50ec93188b91.png"
+      "cover_image": "https://images.tgtg.ninja/item/cover/dfa148c8-aff9-4bed-bd5c-61fd883dc6e2.png"
     },
     {
       "id": "186459028088526977",
@@ -8072,13 +8072,13 @@
       "cover_image": "https://images.tgtg.ninja/item/cover/560bbd93-5368-479a-97a2-9a66c68d1369.png"
     },
     {
-      "id": "179992891151315233",
-      "name": "FreshDirect - Brooklyn - 630 Flushing Ave (Produce Surprise Bag)",
+      "id": "174276012463443329",
+      "name": "FreshDirect - Brooklyn - 630 Flushing Ave (Protein Surprise Bag)",
       "lat": 40.6998337,
       "lng": -73.9482534,
       "available": 0,
-      "rating": 4.775510204081633,
-      "ratings_count": 49,
+      "rating": 4.912280701754386,
+      "ratings_count": 57,
       "price": 9.99,
       "original_price": 30.0,
       "currency": "USD",
@@ -8088,7 +8088,7 @@
       "tags": [
         "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
       ],
-      "cover_image": "https://images.tgtg.ninja/item/cover/dfa148c8-aff9-4bed-bd5c-61fd883dc6e2.png"
+      "cover_image": "https://images.tgtg.ninja/item/cover/9e151046-cb1e-4059-90f1-50ec93188b91.png"
     },
     {
       "id": "109318933078397313",
@@ -8978,6 +8978,120 @@
       "cover_image": "https://images.tgtg.ninja/standard_images/GENERAL/other1.jpg"
     },
     {
+      "id": "70700094544257633",
+      "name": "Whole Foods - NY - Williamsburg (Prepared Foods Bag)",
+      "lat": 40.7161466,
+      "lng": -73.9597037,
+      "available": 4,
+      "rating": 4.430656934306569,
+      "ratings_count": 137,
+      "price": 9.99,
+      "original_price": 30.0,
+      "currency": "USD",
+      "category": "MEAL",
+      "pickup_start": "2025-11-29T02:00:00Z",
+      "pickup_end": "2025-11-29T03:00:00Z",
+      "tags": [
+        "This Surprise Bag is in high demand and sells out quickly. Grab yours before it's gone!"
+      ],
+      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/2878dda4-2d90-497d-a648-489e66e565a3.jpg"
+    },
+    {
+      "id": "181770005269896705",
+      "name": "Whole Foods - NY - Williamsburg (Dry Grocery Bag)",
+      "lat": 40.7161466,
+      "lng": -73.9597037,
+      "available": 0,
+      "rating": 3.473684210526316,
+      "ratings_count": 19,
+      "price": 6.99,
+      "original_price": 21.0,
+      "currency": "USD",
+      "category": "GROCERIES",
+      "pickup_start": "2025-11-29T01:00:00Z",
+      "pickup_end": "2025-11-29T02:00:00Z",
+      "tags": [
+        "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
+      ],
+      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/57b56100-1527-4c6a-8a58-0f6f4ec9d59c.jpg"
+    },
+    {
+      "id": "181773135776106625",
+      "name": "Whole Foods - NY - Williamsburg (Frozen Grocery Bag)",
+      "lat": 40.7161466,
+      "lng": -73.9597037,
+      "available": 0,
+      "rating": 2.9166666666666665,
+      "ratings_count": 12,
+      "price": 6.99,
+      "original_price": 21.0,
+      "currency": "USD",
+      "category": "GROCERIES",
+      "pickup_start": "2025-11-29T01:00:00Z",
+      "pickup_end": "2025-11-29T02:00:00Z",
+      "tags": [
+        "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
+      ],
+      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/fae9e3b1-f3a2-4cf9-9493-5d8265c63ead.jpg"
+    },
+    {
+      "id": "181765590359851393",
+      "name": "Whole Foods - NY - Williamsburg (Meat Bag)",
+      "lat": 40.7161466,
+      "lng": -73.9597037,
+      "available": 0,
+      "rating": 0,
+      "ratings_count": 0,
+      "price": 9.99,
+      "original_price": 30.0,
+      "currency": "USD",
+      "category": "GROCERIES",
+      "pickup_start": "2025-11-29T01:00:00Z",
+      "pickup_end": "2025-11-29T02:00:00Z",
+      "tags": [
+        "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
+      ],
+      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/b4edd366-39f3-4b2e-82d3-ad377085826e.jpg"
+    },
+    {
+      "id": "181784763673986497",
+      "name": "Whole Foods - NY - Williamsburg (Produce Bag)",
+      "lat": 40.7161466,
+      "lng": -73.9597037,
+      "available": 0,
+      "rating": 3.909090909090909,
+      "ratings_count": 11,
+      "price": 6.99,
+      "original_price": 21.0,
+      "currency": "USD",
+      "category": "GROCERIES",
+      "pickup_start": "2025-11-29T01:00:00Z",
+      "pickup_end": "2025-11-29T02:00:00Z",
+      "tags": [
+        "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
+      ],
+      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/35b61628-012e-4e2a-8ae3-e647a64b046c.jpg"
+    },
+    {
+      "id": "181783449481085601",
+      "name": "Whole Foods - NY - Williamsburg (Seafood Bag)",
+      "lat": 40.7161466,
+      "lng": -73.9597037,
+      "available": 0,
+      "rating": 3.5833333333333335,
+      "ratings_count": 12,
+      "price": 9.99,
+      "original_price": 30.0,
+      "currency": "USD",
+      "category": "GROCERIES",
+      "pickup_start": "2025-11-29T01:00:00Z",
+      "pickup_end": "2025-11-29T02:00:00Z",
+      "tags": [
+        "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
+      ],
+      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/ab3bceef-58ae-4a0d-a74d-ab7dde811215.jpg"
+    },
+    {
       "id": "70701616338410753",
       "name": "Whole Foods - NY - Williamsburg (Bakery Bag)",
       "lat": 40.7161466,
@@ -9014,120 +9128,6 @@
         "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
       ],
       "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/fbff34d9-301e-4841-89d6-3299f29ff0ea.jpg"
-    },
-    {
-      "id": "181770005269896705",
-      "name": "Whole Foods - NY - Williamsburg (Dry Grocery Bag)",
-      "lat": 40.7161466,
-      "lng": -73.9597037,
-      "available": 0,
-      "rating": 3.473684210526316,
-      "ratings_count": 19,
-      "price": 6.99,
-      "original_price": 21.0,
-      "currency": "USD",
-      "category": "GROCERIES",
-      "pickup_start": "2025-11-29T01:00:00Z",
-      "pickup_end": "2025-11-29T02:00:00Z",
-      "tags": [
-        "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
-      ],
-      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/57b56100-1527-4c6a-8a58-0f6f4ec9d59c.jpg"
-    },
-    {
-      "id": "181765590359851393",
-      "name": "Whole Foods - NY - Williamsburg (Meat Bag)",
-      "lat": 40.7161466,
-      "lng": -73.9597037,
-      "available": 0,
-      "rating": 0,
-      "ratings_count": 0,
-      "price": 9.99,
-      "original_price": 30.0,
-      "currency": "USD",
-      "category": "GROCERIES",
-      "pickup_start": "2025-11-29T01:00:00Z",
-      "pickup_end": "2025-11-29T02:00:00Z",
-      "tags": [
-        "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
-      ],
-      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/b4edd366-39f3-4b2e-82d3-ad377085826e.jpg"
-    },
-    {
-      "id": "181783449481085601",
-      "name": "Whole Foods - NY - Williamsburg (Seafood Bag)",
-      "lat": 40.7161466,
-      "lng": -73.9597037,
-      "available": 0,
-      "rating": 3.5833333333333335,
-      "ratings_count": 12,
-      "price": 9.99,
-      "original_price": 30.0,
-      "currency": "USD",
-      "category": "GROCERIES",
-      "pickup_start": "2025-11-29T01:00:00Z",
-      "pickup_end": "2025-11-29T02:00:00Z",
-      "tags": [
-        "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
-      ],
-      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/ab3bceef-58ae-4a0d-a74d-ab7dde811215.jpg"
-    },
-    {
-      "id": "181784763673986497",
-      "name": "Whole Foods - NY - Williamsburg (Produce Bag)",
-      "lat": 40.7161466,
-      "lng": -73.9597037,
-      "available": 0,
-      "rating": 3.909090909090909,
-      "ratings_count": 11,
-      "price": 6.99,
-      "original_price": 21.0,
-      "currency": "USD",
-      "category": "GROCERIES",
-      "pickup_start": "2025-11-29T01:00:00Z",
-      "pickup_end": "2025-11-29T02:00:00Z",
-      "tags": [
-        "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
-      ],
-      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/35b61628-012e-4e2a-8ae3-e647a64b046c.jpg"
-    },
-    {
-      "id": "70700094544257633",
-      "name": "Whole Foods - NY - Williamsburg (Prepared Foods Bag)",
-      "lat": 40.7161466,
-      "lng": -73.9597037,
-      "available": 4,
-      "rating": 4.430656934306569,
-      "ratings_count": 137,
-      "price": 9.99,
-      "original_price": 30.0,
-      "currency": "USD",
-      "category": "MEAL",
-      "pickup_start": "2025-11-29T02:00:00Z",
-      "pickup_end": "2025-11-29T03:00:00Z",
-      "tags": [
-        "This Surprise Bag is in high demand and sells out quickly. Grab yours before it's gone!"
-      ],
-      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/2878dda4-2d90-497d-a648-489e66e565a3.jpg"
-    },
-    {
-      "id": "181773135776106625",
-      "name": "Whole Foods - NY - Williamsburg (Frozen Grocery Bag)",
-      "lat": 40.7161466,
-      "lng": -73.9597037,
-      "available": 0,
-      "rating": 2.9166666666666665,
-      "ratings_count": 12,
-      "price": 6.99,
-      "original_price": 21.0,
-      "currency": "USD",
-      "category": "GROCERIES",
-      "pickup_start": "2025-11-29T01:00:00Z",
-      "pickup_end": "2025-11-29T02:00:00Z",
-      "tags": [
-        "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
-      ],
-      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/fae9e3b1-f3a2-4cf9-9493-5d8265c63ead.jpg"
     },
     {
       "id": "181787321125038465",
@@ -9293,25 +9293,6 @@
       "cover_image": "https://images.tgtg.ninja/standard_images/GENERAL/other1.jpg"
     },
     {
-      "id": "232286",
-      "name": "El Monumento - New York (Surprise Bag)",
-      "lat": 40.6927045,
-      "lng": -73.9271521,
-      "available": 5,
-      "rating": 4.762376237623762,
-      "ratings_count": 101,
-      "price": 4.99,
-      "original_price": 15.0,
-      "currency": "USD",
-      "category": "MEAL",
-      "pickup_start": "2025-11-29T02:30:00Z",
-      "pickup_end": "2025-11-29T03:00:00Z",
-      "tags": [
-        "This is a highly rated Surprise Bag that deserves more love. Don't miss out on this secret favourite!"
-      ],
-      "cover_image": "https://images.tgtg.ninja/item/cover/b65cb874-5b60-46b7-b9f2-c07fe82ad5cc.jpg"
-    },
-    {
       "id": "98976590242513217",
       "name": "El Monumento - New York (Surprise Bag)",
       "lat": 40.6927045,
@@ -9344,6 +9325,25 @@
       "pickup_end": "2025-11-29T03:00:00Z",
       "tags": [],
       "cover_image": "https://images.tgtg.ninja/item/cover/795bb790-5ded-42e5-8fdd-d94cf9efe3f5.jpg"
+    },
+    {
+      "id": "232286",
+      "name": "El Monumento - New York (Surprise Bag)",
+      "lat": 40.6927045,
+      "lng": -73.9271521,
+      "available": 5,
+      "rating": 4.762376237623762,
+      "ratings_count": 101,
+      "price": 4.99,
+      "original_price": 15.0,
+      "currency": "USD",
+      "category": "MEAL",
+      "pickup_start": "2025-11-29T02:30:00Z",
+      "pickup_end": "2025-11-29T03:00:00Z",
+      "tags": [
+        "This is a highly rated Surprise Bag that deserves more love. Don't miss out on this secret favourite!"
+      ],
+      "cover_image": "https://images.tgtg.ninja/item/cover/b65cb874-5b60-46b7-b9f2-c07fe82ad5cc.jpg"
     },
     {
       "id": "1076651",
@@ -9892,23 +9892,6 @@
       "cover_image": "https://images.tgtg.ninja/item/cover/cdde84e6-10ff-455b-bbbf-143ee7736d36.jpg"
     },
     {
-      "id": "236882",
-      "name": "Mahfood Market  (\ud83d\udc8e Surprise Bag \ud83d\udc8e)",
-      "lat": 40.6790798,
-      "lng": -73.9642465,
-      "available": 6,
-      "rating": 3.8181818181818183,
-      "ratings_count": 33,
-      "price": 4.99,
-      "original_price": 15.0,
-      "currency": "USD",
-      "category": "GROCERIES",
-      "pickup_start": "2025-11-28T13:00:00Z",
-      "pickup_end": "2025-11-29T04:00:00Z",
-      "tags": [],
-      "cover_image": "https://images.tgtg.ninja/standard_images/FRUIT_AND_VEGETABLES/vyHo3nnk8G8.jpg"
-    },
-    {
       "id": "162974509070609601",
       "name": "Mahfood Market  (Grocery\u2019s Surprise Bag)",
       "lat": 40.6790798,
@@ -9924,6 +9907,23 @@
       "pickup_end": "2025-11-29T04:00:00Z",
       "tags": [],
       "cover_image": "https://images.tgtg.ninja/standard_images/GENERAL/other2.jpg"
+    },
+    {
+      "id": "236882",
+      "name": "Mahfood Market  (\ud83d\udc8e Surprise Bag \ud83d\udc8e)",
+      "lat": 40.6790798,
+      "lng": -73.9642465,
+      "available": 6,
+      "rating": 3.8181818181818183,
+      "ratings_count": 33,
+      "price": 4.99,
+      "original_price": 15.0,
+      "currency": "USD",
+      "category": "GROCERIES",
+      "pickup_start": "2025-11-28T13:00:00Z",
+      "pickup_end": "2025-11-29T04:00:00Z",
+      "tags": [],
+      "cover_image": "https://images.tgtg.ninja/standard_images/FRUIT_AND_VEGETABLES/vyHo3nnk8G8.jpg"
     },
     {
       "id": "508370",
@@ -10184,8 +10184,8 @@
       "cover_image": "https://images.tgtg.ninja/item/cover/dc9eceff-d2d5-44da-a475-03c5d2b8e621.png"
     },
     {
-      "id": "181784796456664289",
-      "name": "Whole Foods - NY - Fort Greene (Produce Bag)",
+      "id": "181773167887691521",
+      "name": "Whole Foods - NY - Fort Greene (Frozen Grocery Bag)",
       "lat": 40.6864068,
       "lng": -73.9783928,
       "available": 0,
@@ -10200,83 +10200,7 @@
       "tags": [
         "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
       ],
-      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/35b61628-012e-4e2a-8ae3-e647a64b046c.jpg"
-    },
-    {
-      "id": "181771814160758657",
-      "name": "Whole Foods - NY - Fort Greene (Refrigerated Grocery Bag)",
-      "lat": 40.6864068,
-      "lng": -73.9783928,
-      "available": 0,
-      "rating": 0,
-      "ratings_count": 0,
-      "price": 6.99,
-      "original_price": 21.0,
-      "currency": "USD",
-      "category": "GROCERIES",
-      "pickup_start": "2025-11-29T00:00:00Z",
-      "pickup_end": "2025-11-29T02:00:00Z",
-      "tags": [
-        "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
-      ],
-      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/fbff34d9-301e-4841-89d6-3299f29ff0ea.jpg"
-    },
-    {
-      "id": "181783482330889185",
-      "name": "Whole Foods - NY - Fort Greene (Seafood Bag)",
-      "lat": 40.6864068,
-      "lng": -73.9783928,
-      "available": 0,
-      "rating": 0,
-      "ratings_count": 0,
-      "price": 9.99,
-      "original_price": 30.0,
-      "currency": "USD",
-      "category": "GROCERIES",
-      "pickup_start": "2025-11-29T00:00:00Z",
-      "pickup_end": "2025-11-29T02:00:00Z",
-      "tags": [
-        "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
-      ],
-      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/ab3bceef-58ae-4a0d-a74d-ab7dde811215.jpg"
-    },
-    {
-      "id": "181765616465206817",
-      "name": "Whole Foods - NY - Fort Greene (Meat Bag)",
-      "lat": 40.6864068,
-      "lng": -73.9783928,
-      "available": 0,
-      "rating": 0,
-      "ratings_count": 0,
-      "price": 9.99,
-      "original_price": 30.0,
-      "currency": "USD",
-      "category": "GROCERIES",
-      "pickup_start": "2025-11-29T00:00:00Z",
-      "pickup_end": "2025-11-29T02:00:00Z",
-      "tags": [
-        "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
-      ],
-      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/b4edd366-39f3-4b2e-82d3-ad377085826e.jpg"
-    },
-    {
-      "id": "181787345049331681",
-      "name": "Whole Foods - NY - Fort Greene (Floral Bag)",
-      "lat": 40.6864068,
-      "lng": -73.9783928,
-      "available": 0,
-      "rating": 3.8,
-      "ratings_count": 10,
-      "price": 7.99,
-      "original_price": 24.0,
-      "currency": "USD",
-      "category": "FLOWERS_PLANTS",
-      "pickup_start": "2025-11-29T00:00:00Z",
-      "pickup_end": "2025-11-29T02:00:00Z",
-      "tags": [
-        "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
-      ],
-      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/18b5c601-ffc6-4a63-afb7-0dd72166eed1.jpg"
+      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/fae9e3b1-f3a2-4cf9-9493-5d8265c63ead.jpg"
     },
     {
       "id": "70699968480249505",
@@ -10298,8 +10222,27 @@
       "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/2878dda4-2d90-497d-a648-489e66e565a3.jpg"
     },
     {
-      "id": "181773167887691521",
-      "name": "Whole Foods - NY - Fort Greene (Frozen Grocery Bag)",
+      "id": "181787345049331681",
+      "name": "Whole Foods - NY - Fort Greene (Floral Bag)",
+      "lat": 40.6864068,
+      "lng": -73.9783928,
+      "available": 0,
+      "rating": 3.8,
+      "ratings_count": 10,
+      "price": 7.99,
+      "original_price": 24.0,
+      "currency": "USD",
+      "category": "FLOWERS_PLANTS",
+      "pickup_start": "2025-11-29T00:00:00Z",
+      "pickup_end": "2025-11-29T02:00:00Z",
+      "tags": [
+        "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
+      ],
+      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/18b5c601-ffc6-4a63-afb7-0dd72166eed1.jpg"
+    },
+    {
+      "id": "181784796456664289",
+      "name": "Whole Foods - NY - Fort Greene (Produce Bag)",
       "lat": 40.6864068,
       "lng": -73.9783928,
       "available": 0,
@@ -10314,7 +10257,26 @@
       "tags": [
         "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
       ],
-      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/fae9e3b1-f3a2-4cf9-9493-5d8265c63ead.jpg"
+      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/35b61628-012e-4e2a-8ae3-e647a64b046c.jpg"
+    },
+    {
+      "id": "181765616465206817",
+      "name": "Whole Foods - NY - Fort Greene (Meat Bag)",
+      "lat": 40.6864068,
+      "lng": -73.9783928,
+      "available": 0,
+      "rating": 0,
+      "ratings_count": 0,
+      "price": 9.99,
+      "original_price": 30.0,
+      "currency": "USD",
+      "category": "GROCERIES",
+      "pickup_start": "2025-11-29T00:00:00Z",
+      "pickup_end": "2025-11-29T02:00:00Z",
+      "tags": [
+        "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
+      ],
+      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/b4edd366-39f3-4b2e-82d3-ad377085826e.jpg"
     },
     {
       "id": "70701510578729345",
@@ -10353,6 +10315,44 @@
         "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
       ],
       "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/57b56100-1527-4c6a-8a58-0f6f4ec9d59c.jpg"
+    },
+    {
+      "id": "181771814160758657",
+      "name": "Whole Foods - NY - Fort Greene (Refrigerated Grocery Bag)",
+      "lat": 40.6864068,
+      "lng": -73.9783928,
+      "available": 0,
+      "rating": 0,
+      "ratings_count": 0,
+      "price": 6.99,
+      "original_price": 21.0,
+      "currency": "USD",
+      "category": "GROCERIES",
+      "pickup_start": "2025-11-29T00:00:00Z",
+      "pickup_end": "2025-11-29T02:00:00Z",
+      "tags": [
+        "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
+      ],
+      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/fbff34d9-301e-4841-89d6-3299f29ff0ea.jpg"
+    },
+    {
+      "id": "181783482330889185",
+      "name": "Whole Foods - NY - Fort Greene (Seafood Bag)",
+      "lat": 40.6864068,
+      "lng": -73.9783928,
+      "available": 0,
+      "rating": 0,
+      "ratings_count": 0,
+      "price": 9.99,
+      "original_price": 30.0,
+      "currency": "USD",
+      "category": "GROCERIES",
+      "pickup_start": "2025-11-29T00:00:00Z",
+      "pickup_end": "2025-11-29T02:00:00Z",
+      "tags": [
+        "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
+      ],
+      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/ab3bceef-58ae-4a0d-a74d-ab7dde811215.jpg"
     },
     {
       "id": "231363",
@@ -11222,6 +11222,23 @@
       "cover_image": "https://images.tgtg.ninja/item/cover/ae5efcb7-691d-4eef-add7-cf781c800cb1.png"
     },
     {
+      "id": "43793694756352609",
+      "name": "Chinese Musician (Surprise Bag)",
+      "lat": 40.730412,
+      "lng": -73.9537413,
+      "available": 3,
+      "rating": 4.724137931034483,
+      "ratings_count": 87,
+      "price": 9.99,
+      "original_price": 30.0,
+      "currency": "USD",
+      "category": "MEAL",
+      "pickup_start": "2025-11-29T02:20:00Z",
+      "pickup_end": "2025-11-29T02:50:00Z",
+      "tags": [],
+      "cover_image": "https://images.tgtg.ninja/standard_images/BUFFET/8LxEvb4kU.jpg"
+    },
+    {
       "id": "43225196537754881",
       "name": "Chinese Musician (Surprise Bag)",
       "lat": 40.730412,
@@ -11238,23 +11255,6 @@
       "tags": [
         "This Surprise Bag is a crowd favourite, with top ratings and plenty of saves."
       ],
-      "cover_image": "https://images.tgtg.ninja/standard_images/BUFFET/8LxEvb4kU.jpg"
-    },
-    {
-      "id": "43793694756352609",
-      "name": "Chinese Musician (Surprise Bag)",
-      "lat": 40.730412,
-      "lng": -73.9537413,
-      "available": 3,
-      "rating": 4.724137931034483,
-      "ratings_count": 87,
-      "price": 9.99,
-      "original_price": 30.0,
-      "currency": "USD",
-      "category": "MEAL",
-      "pickup_start": "2025-11-29T02:20:00Z",
-      "pickup_end": "2025-11-29T02:50:00Z",
-      "tags": [],
       "cover_image": "https://images.tgtg.ninja/standard_images/BUFFET/8LxEvb4kU.jpg"
     },
     {
@@ -12674,23 +12674,6 @@
       "cover_image": "https://images.tgtg.ninja/item/cover/51d8cfca-1fbd-4404-8ede-185669140acc.png"
     },
     {
-      "id": "238119",
-      "name": "Tortilleria La Malinche (Baked Goods)",
-      "lat": 40.6496031,
-      "lng": -74.005933,
-      "available": 3,
-      "rating": 3.5294117647058822,
-      "ratings_count": 17,
-      "price": 3.99,
-      "original_price": 12.0,
-      "currency": "USD",
-      "category": "BAKED_GOODS",
-      "pickup_start": "2025-11-28T23:00:00Z",
-      "pickup_end": "2025-11-29T01:00:00Z",
-      "tags": [],
-      "cover_image": "https://images.tgtg.ninja/item/cover/6b574e31-b51e-4b9a-b8dd-dd3d85425e0d.jpg"
-    },
-    {
       "id": "508972",
       "name": "Tortilleria La Malinche (Groceries/Produce)",
       "lat": 40.6496031,
@@ -12723,6 +12706,23 @@
       "pickup_end": "2025-11-29T01:00:00Z",
       "tags": [],
       "cover_image": "https://images.tgtg.ninja/item/cover/9723e51a-9d2d-436c-bc26-63abfbeee673.png"
+    },
+    {
+      "id": "238119",
+      "name": "Tortilleria La Malinche (Baked Goods)",
+      "lat": 40.6496031,
+      "lng": -74.005933,
+      "available": 3,
+      "rating": 3.5294117647058822,
+      "ratings_count": 17,
+      "price": 3.99,
+      "original_price": 12.0,
+      "currency": "USD",
+      "category": "BAKED_GOODS",
+      "pickup_start": "2025-11-28T23:00:00Z",
+      "pickup_end": "2025-11-29T01:00:00Z",
+      "tags": [],
+      "cover_image": "https://images.tgtg.ninja/item/cover/6b574e31-b51e-4b9a-b8dd-dd3d85425e0d.jpg"
     },
     {
       "id": "792441",
@@ -13680,15 +13680,15 @@
       "cover_image": "https://images.tgtg.ninja/item/cover/bbae12d7-ca03-4c6b-a6b7-3fd44c262b90.jpg"
     },
     {
-      "id": "181771838616929921",
-      "name": "Whole Foods - NY - Brooklyn (Refrigerated Grocery Bag)",
+      "id": "181765642970330465",
+      "name": "Whole Foods - NY - Brooklyn (Meat Bag)",
       "lat": 40.6748928,
       "lng": -73.9887879,
       "available": 0,
-      "rating": 4.25,
-      "ratings_count": 16,
-      "price": 6.99,
-      "original_price": 21.0,
+      "rating": 4.454545454545454,
+      "ratings_count": 11,
+      "price": 9.99,
+      "original_price": 30.0,
       "currency": "USD",
       "category": "GROCERIES",
       "pickup_start": "2025-11-29T00:00:00Z",
@@ -13696,26 +13696,7 @@
       "tags": [
         "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
       ],
-      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/fbff34d9-301e-4841-89d6-3299f29ff0ea.jpg"
-    },
-    {
-      "id": "181770064493461697",
-      "name": "Whole Foods - NY - Brooklyn (Dry Grocery Bag)",
-      "lat": 40.6748928,
-      "lng": -73.9887879,
-      "available": 0,
-      "rating": 0,
-      "ratings_count": 0,
-      "price": 6.99,
-      "original_price": 21.0,
-      "currency": "USD",
-      "category": "GROCERIES",
-      "pickup_start": "2025-11-29T00:00:00Z",
-      "pickup_end": "2025-11-29T02:00:00Z",
-      "tags": [
-        "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
-      ],
-      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/57b56100-1527-4c6a-8a58-0f6f4ec9d59c.jpg"
+      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/b4edd366-39f3-4b2e-82d3-ad377085826e.jpg"
     },
     {
       "id": "181784821569834209",
@@ -13737,15 +13718,15 @@
       "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/35b61628-012e-4e2a-8ae3-e647a64b046c.jpg"
     },
     {
-      "id": "181765642970330465",
-      "name": "Whole Foods - NY - Brooklyn (Meat Bag)",
+      "id": "181771838616929921",
+      "name": "Whole Foods - NY - Brooklyn (Refrigerated Grocery Bag)",
       "lat": 40.6748928,
       "lng": -73.9887879,
       "available": 0,
-      "rating": 4.454545454545454,
-      "ratings_count": 11,
-      "price": 9.99,
-      "original_price": 30.0,
+      "rating": 4.25,
+      "ratings_count": 16,
+      "price": 6.99,
+      "original_price": 21.0,
       "currency": "USD",
       "category": "GROCERIES",
       "pickup_start": "2025-11-29T00:00:00Z",
@@ -13753,7 +13734,7 @@
       "tags": [
         "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
       ],
-      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/b4edd366-39f3-4b2e-82d3-ad377085826e.jpg"
+      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/fbff34d9-301e-4841-89d6-3299f29ff0ea.jpg"
     },
     {
       "id": "70701461085935361",
@@ -13792,6 +13773,25 @@
         "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
       ],
       "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/18b5c601-ffc6-4a63-afb7-0dd72166eed1.jpg"
+    },
+    {
+      "id": "181770064493461697",
+      "name": "Whole Foods - NY - Brooklyn (Dry Grocery Bag)",
+      "lat": 40.6748928,
+      "lng": -73.9887879,
+      "available": 0,
+      "rating": 0,
+      "ratings_count": 0,
+      "price": 6.99,
+      "original_price": 21.0,
+      "currency": "USD",
+      "category": "GROCERIES",
+      "pickup_start": "2025-11-29T00:00:00Z",
+      "pickup_end": "2025-11-29T02:00:00Z",
+      "tags": [
+        "This Surprise Bag is sold out for now \u2014 check back later for more surprises!"
+      ],
+      "cover_image": "https://images.tgtg.ninja/itembulkimport/cover/57b56100-1527-4c6a-8a58-0f6f4ec9d59c.jpg"
     },
     {
       "id": "128982350741449889",
@@ -13881,23 +13881,6 @@
       "cover_image": "https://images.tgtg.ninja/standard_images/GENERAL/other5.jpg"
     },
     {
-      "id": "906487",
-      "name": "Highly Grounded Cafe (Pastry Bag)",
-      "lat": 40.6195106,
-      "lng": -73.9074265,
-      "available": 3,
-      "rating": 4.4,
-      "ratings_count": 70,
-      "price": 4.99,
-      "original_price": 15.0,
-      "currency": "USD",
-      "category": "BAKED_GOODS",
-      "pickup_start": "2025-11-28T23:00:00Z",
-      "pickup_end": "2025-11-29T00:00:00Z",
-      "tags": [],
-      "cover_image": "https://images.tgtg.ninja/standard_images/PASTRIES_AND_CAKES/qZ5lPCPvdXE.jpg"
-    },
-    {
       "id": "906513",
       "name": "Highly Grounded Cafe (Beverage + Pastry Bag)",
       "lat": 40.6195106,
@@ -13913,6 +13896,23 @@
       "pickup_end": "2025-11-29T00:00:00Z",
       "tags": [],
       "cover_image": "https://images.tgtg.ninja/item/cover/ea52ec21-6326-4b56-bdde-ee6c0829973f.jpg"
+    },
+    {
+      "id": "906487",
+      "name": "Highly Grounded Cafe (Pastry Bag)",
+      "lat": 40.6195106,
+      "lng": -73.9074265,
+      "available": 3,
+      "rating": 4.4,
+      "ratings_count": 70,
+      "price": 4.99,
+      "original_price": 15.0,
+      "currency": "USD",
+      "category": "BAKED_GOODS",
+      "pickup_start": "2025-11-28T23:00:00Z",
+      "pickup_end": "2025-11-29T00:00:00Z",
+      "tags": [],
+      "cover_image": "https://images.tgtg.ninja/standard_images/PASTRIES_AND_CAKES/qZ5lPCPvdXE.jpg"
     },
     {
       "id": "232410",
@@ -14080,23 +14080,6 @@
       "cover_image": "https://images.tgtg.ninja/standard_images/GENERAL/other1.jpg"
     },
     {
-      "id": "113392441132371169",
-      "name": "A&O Imperial Grocery  (Baked goods)",
-      "lat": 40.6689047,
-      "lng": -73.920382,
-      "available": 3,
-      "rating": 0,
-      "ratings_count": 0,
-      "price": 4.99,
-      "original_price": 15.0,
-      "currency": "USD",
-      "category": "BAKED_GOODS",
-      "pickup_start": "2025-11-28T20:00:00Z",
-      "pickup_end": "2025-11-28T21:00:00Z",
-      "tags": [],
-      "cover_image": "https://images.tgtg.ninja/standard_images/BAKED_GOODS/ZgLkISKgSeE.jpg"
-    },
-    {
       "id": "114017747718211169",
       "name": "A&O Imperial Grocery  (Groceries)",
       "lat": 40.6689047,
@@ -14112,6 +14095,23 @@
       "pickup_end": "2025-11-28T21:00:00Z",
       "tags": [],
       "cover_image": "https://images.tgtg.ninja/standard_images/GROCERIES/D6Tu_L3chLE.jpg"
+    },
+    {
+      "id": "113392441132371169",
+      "name": "A&O Imperial Grocery  (Baked goods)",
+      "lat": 40.6689047,
+      "lng": -73.920382,
+      "available": 3,
+      "rating": 0,
+      "ratings_count": 0,
+      "price": 4.99,
+      "original_price": 15.0,
+      "currency": "USD",
+      "category": "BAKED_GOODS",
+      "pickup_start": "2025-11-28T20:00:00Z",
+      "pickup_end": "2025-11-28T21:00:00Z",
+      "tags": [],
+      "cover_image": "https://images.tgtg.ninja/standard_images/BAKED_GOODS/ZgLkISKgSeE.jpg"
     },
     {
       "id": "58281116644978209",
