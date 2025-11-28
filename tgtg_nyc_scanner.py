@@ -5,19 +5,24 @@ from tgtg import TgtgClient
 from datetime import datetime
 
 # --- CONFIGURATION ---
-
 try:
     TGTG_CREDS = {
-        'access_token': os.environ["TGTG_ACCESS_TOKEN"],
-        'refresh_token': os.environ["TGTG_REFRESH_TOKEN"],
-        'user_id': os.environ["TGTG_USER_ID"],
+        'access_token': os.environ.get("TGTG_ACCESS_TOKEN"),
+        'refresh_token': os.environ.get("TGTG_REFRESH_TOKEN"),
+        'user_id': os.environ.get("TGTG_USER_ID"),
         'cookie': os.environ.get("TGTG_COOKIE", "datadome=123") 
     }
+    # Fallback for local testing if env vars are missing
+    if not TGTG_CREDS['access_token']:
+        # PASTE YOUR HARDCODED TOKENS HERE IF RUNNING LOCALLY
+        TGTG_CREDS['access_token'] = 'YOUR_ACCESS_TOKEN'
+        TGTG_CREDS['refresh_token'] = 'YOUR_REFRESH_TOKEN'
+        TGTG_CREDS['user_id'] = 'YOUR_USER_ID'
+        
 except KeyError:
-    print("❌ Error: Secrets not found. Make sure to set TGTG_ACCESS_TOKEN, etc. in GitHub Settings.")
+    print("❌ Error: Credentials issue.")
     exit(1)
 
-# Scan Targets: 5 Boroughs (approximate centers)
 SCAN_ZONES = [
     {"name": "Manhattan", "lat": 40.7831, "long": -73.9712},
     {"name": "Brooklyn", "lat": 40.6782, "long": -73.9442},
@@ -27,6 +32,28 @@ SCAN_ZONES = [
 ]
 
 OUTPUT_FILE = 'nyc_data.json'
+
+def get_location(store_item):
+    """ Tries multiple ways to find latitude and longitude """
+    lat, lng = None, None
+    
+    # Method 1: direct in 'location'
+    loc = store_item.get('location', {})
+    lat = loc.get('latitude')
+    lng = loc.get('longitude')
+
+    # Method 2: nested in 'location' -> 'location'
+    if not lat and 'location' in loc:
+        lat = loc['location'].get('latitude')
+        lng = loc['location'].get('longitude')
+
+    # Method 3: 'store_location' key
+    if not lat:
+        loc = store_item.get('store_location', {})
+        lat = loc.get('latitude')
+        lng = loc.get('longitude')
+        
+    return lat, lng
 
 def fetch_data():
     client = TgtgClient(access_token=TGTG_CREDS['access_token'], 
@@ -55,14 +82,15 @@ def fetch_data():
                     store_id = item['item']['item_id']
                     if store_id in all_stores: continue
 
-                    # Location extraction
-                    loc_data = item['store'].get('location', {})
-                    lat = loc_data.get('latitude') or item['store'].get('store_location', {}).get('latitude')
-                    lng = loc_data.get('longitude') or item['store'].get('store_location', {}).get('longitude')
+                    # Use robust location finder
+                    lat, lng = get_location(item['store'])
                     
-                    if not lat or not lng: continue
+                    if not lat or not lng: 
+                        # Print warning if we find a store but can't find its location
+                        # print(f"      ⚠️ No location for {item['store']['store_name']}")
+                        continue
 
-                    # Pricing
+                    # Safe Pricing
                     price_data = item['item'].get('price_including_taxes', {})
                     price = price_data.get('minor_units', 0) / 100
                     currency = price_data.get('code', 'USD')
@@ -90,7 +118,8 @@ def fetch_data():
                     
                     all_stores[store_id] = store_obj
                     
-                except Exception:
+                except Exception as e:
+                    print(f"      ❌ Failed parsing item: {e}")
                     continue
 
         except Exception as e:
