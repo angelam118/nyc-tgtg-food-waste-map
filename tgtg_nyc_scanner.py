@@ -27,27 +27,25 @@ except KeyError:
 # Mimic a real iPhone to avoid being blocked
 USER_AGENT = "TGTG/24.9.1 Darwin/21.6.0 (iPhone 13; iOS 15.6.1; Scale/3.00)"
 
-# --- OPTIMIZED NYC GRID (10 Core Zones) ---
-# Reduced from 25 to 10 to prevent blocking and speed up scanning.
-# Radius increased to 6km to maintain coverage with fewer requests.
+# --- BALANCED NYC GRID (8 Strategic Zones) ---
+# We split dense boroughs (Manhattan/Brooklyn/Queens) into 2 parts.
+# This avoids the "400 item limit" per request without needing 25 separate scans.
 SCAN_ZONES = [
-    # MANHATTAN (Consolidated)
-    {"name": "Manhattan - Lower (FiDi/Village)", "lat": 40.725, "long": -74.00},
-    {"name": "Manhattan - Mid (Chelsea/Midtown)", "lat": 40.755, "long": -73.98},
-    {"name": "Manhattan - Upper (UWS/UES/Harlem)", "lat": 40.800, "long": -73.95},
-    {"name": "Manhattan - North (Inwood/Wash Hts)", "lat": 40.850, "long": -73.93},
+    # MANHATTAN (Split to catch Lower & Upper without truncation)
+    {"name": "Manhattan - South (Village/Chelsea)", "lat": 40.730, "long": -74.00},
+    {"name": "Manhattan - North (Harlem/UWS/UES)", "lat": 40.800, "long": -73.95},
 
-    # BROOKLYN (Consolidated)
-    {"name": "Brooklyn - North (Williamsburg/Bushwick)", "lat": 40.710, "long": -73.94},
-    {"name": "Brooklyn - Core (Downtown/Park Slope)", "lat": 40.670, "long": -73.98},
-    {"name": "Brooklyn - South (Flatbush/Bay Ridge)", "lat": 40.630, "long": -74.00},
+    # BROOKLYN (Split to catch Hipster areas vs Residential)
+    {"name": "Brooklyn - North (Williamsburg/Downtown)", "lat": 40.700, "long": -73.95},
+    {"name": "Brooklyn - South (Flatbush/Bensonhurst)", "lat": 40.630, "long": -73.97},
 
-    # QUEENS (Consolidated)
-    {"name": "Queens - West (LIC/Astoria/Sunnyside)", "lat": 40.750, "long": -73.91},
-    {"name": "Queens - Central (Forest Hills/Flushing)", "lat": 40.730, "long": -73.83},
+    # QUEENS (Split to catch Astoria vs Flushing)
+    {"name": "Queens - West (Astoria/LIC)", "lat": 40.750, "long": -73.91},
+    {"name": "Queens - East (Flushing/Forest Hills)", "lat": 40.730, "long": -73.82},
 
-    # BRONX (Consolidated)
-    {"name": "Bronx - Core", "lat": 40.850, "long": -73.89},
+    # THE REST
+    {"name": "The Bronx", "lat": 40.850, "long": -73.89},
+    {"name": "Staten Island", "lat": 40.580, "long": -74.15}
 ]
 
 OUTPUT_FILE = 'nyc_data.json'
@@ -95,7 +93,7 @@ def fetch_data():
 
     all_stores = {} 
     
-    print(f"🚀 Starting Optimized NYC Scan ({len(SCAN_ZONES)} Zones)...")
+    print(f"🚀 Starting Balanced NYC Scan ({len(SCAN_ZONES)} Zones)...")
     
     for zone in SCAN_ZONES:
         print(f"   📍 {zone['name']}...", end=" ", flush=True)
@@ -104,7 +102,7 @@ def fetch_data():
                 favorites_only=False,
                 latitude=zone['lat'],
                 longitude=zone['long'],
-                radius=6, # Increased radius for fewer requests
+                radius=10, # Large radius + Split zones = Full coverage
                 page_size=400 
             )
             print(f"Found {len(items)} items.")
@@ -157,20 +155,19 @@ def fetch_data():
                 except Exception:
                     continue
             
-            # INCREMENTAL SAVE: Save after every zone so we don't lose data if blocked later
+            # Save progress immediately
             save_data(all_stores)
 
         except Exception as e:
             # Check for 403 (Blocked)
             if "403" in str(e):
-                print(f"\n      ⚠️ BLOCKED (403). Waiting 2 minutes before next zone...")
-                time.sleep(120) # 2 minute cool down
+                print(f"\n      ⚠️ BLOCKED (403). Pausing 45s...")
+                time.sleep(45) 
             else:
                 print(f"\n      ⚠️ Error: {e}", end=" ")
         
-        # Random sleep between 15 and 30 seconds to look human
-        nap_time = random.uniform(15, 30)
-        time.sleep(nap_time) 
+        # Fast sleep (2 seconds) to keep it snappy
+        time.sleep(2) 
 
     print(f"\n✅ Scan Complete! Final count: {len(all_stores)} unique stores.")
 
