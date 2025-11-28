@@ -1,6 +1,7 @@
 import json
 import time
 import os
+import random
 from tgtg import TgtgClient
 from datetime import datetime
 
@@ -22,6 +23,9 @@ try:
 except KeyError:
     print("❌ Error: Credentials issue.")
     exit(1)
+
+# Mimic a real iPhone to avoid being blocked
+USER_AGENT = "TGTG/24.9.1 Darwin/21.6.0 (iPhone 13; iOS 15.6.1; Scale/3.00)"
 
 # --- DETAILED NYC GRID (25 Zones) ---
 # We use small radii (4km) to ensure we don't hit the 400-item API limit per request
@@ -92,7 +96,8 @@ def get_location(store_item):
 def fetch_data():
     client = TgtgClient(access_token=TGTG_CREDS['access_token'], 
                         refresh_token=TGTG_CREDS['refresh_token'],
-                        cookie=TGTG_CREDS['cookie'])
+                        cookie=TGTG_CREDS['cookie'],
+                        user_agent=USER_AGENT) # Set User Agent to avoid bot detection
     client.user_id = TGTG_CREDS['user_id']
 
     all_stores = {} 
@@ -106,7 +111,7 @@ def fetch_data():
                 favorites_only=False,
                 latitude=zone['lat'],
                 longitude=zone['long'],
-                radius=4, # Smaller radius (4km) to catch all local items without hitting limit
+                radius=4, 
                 page_size=400 
             )
             print(f"Found {len(items)} items.")
@@ -160,10 +165,16 @@ def fetch_data():
                     continue
 
         except Exception as e:
-            print(f"Error scanning zone {zone['name']}: {e}")
+            # Check for 403 (Blocked)
+            if "403" in str(e):
+                print(f"\n      ⚠️ BLOCKED (403). Pausing 60s to cool down...", end=" ")
+                time.sleep(60)
+            else:
+                print(f"\n      ⚠️ Error: {e}", end=" ")
         
-        # Slightly longer sleep to be polite with 25 requests
-        time.sleep(3) 
+        # Random sleep between 10 and 20 seconds to look human
+        nap_time = random.uniform(10, 20)
+        time.sleep(nap_time) 
 
     # Prepare Data
     final_data = {
