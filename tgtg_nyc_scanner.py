@@ -34,27 +34,30 @@ SCAN_ZONES = [
 OUTPUT_FILE = 'nyc_data.json'
 
 def get_location(store_item):
-    """ Tries multiple ways to find latitude and longitude """
+    """ Tries multiple ways to find latitude and longitude based on API variations """
     lat, lng = None, None
     
-    # Method 1: direct in 'location'
-    loc = store_item.get('location', {})
-    if loc:
+    # Check 'location' key (Old API style)
+    if 'location' in store_item:
+        loc = store_item['location']
+        # direct
         lat = loc.get('latitude')
         lng = loc.get('longitude')
+        # nested
+        if not lat and 'location' in loc:
+            lat = loc['location'].get('latitude')
+            lng = loc['location'].get('longitude')
 
-    # Method 2: nested in 'location' -> 'location'
-    if not lat and loc and 'location' in loc:
-        nested = loc.get('location', {})
-        lat = nested.get('latitude')
-        lng = nested.get('longitude')
-
-    # Method 3: 'store_location' key
-    if not lat:
-        loc = store_item.get('store_location', {})
-        if loc:
-            lat = loc.get('latitude')
-            lng = loc.get('longitude')
+    # Check 'store_location' key (New API style - MATCHES YOUR DEBUG DATA)
+    if not lat and 'store_location' in store_item:
+        loc = store_item['store_location']
+        # direct
+        lat = loc.get('latitude')
+        lng = loc.get('longitude')
+        # nested (This is the one from your logs)
+        if not lat and 'location' in loc:
+            lat = loc['location'].get('latitude')
+            lng = loc['location'].get('longitude')
         
     return lat, lng
 
@@ -68,9 +71,6 @@ def fetch_data():
     
     print(f"🚀 Starting NYC Wide Scan ({len(SCAN_ZONES)} Zones)...")
     
-    # Debug flag to print only the first item once
-    debug_printed = False
-
     for zone in SCAN_ZONES:
         print(f"   📍 Scanning {zone['name']}...", end=" ")
         try:
@@ -84,37 +84,32 @@ def fetch_data():
             print(f"Found {len(items)} items.")
             
             for item in items:
-                # --- DEBUG: PRINT RAW DATA FOR FIRST ITEM ---
-                if not debug_printed:
-                    print("\n--- DEBUG: RAW ITEM DUMP (Copy this!) ---")
-                    print(json.dumps(item, indent=2, default=str))
-                    print("------------------------------------------\n")
-                    debug_printed = True
-                # --------------------------------------------
-
                 try:
                     store_id = item['item']['item_id']
                     if store_id in all_stores: continue
 
-                    # Use robust location finder
+                    # Use updated robust location finder
                     lat, lng = get_location(item['store'])
                     
                     if not lat or not lng: 
-                        # Debugging output to see failures
-                        # print(f"      ⚠️ Skipped {item['store']['store_name']} (No Lat/Lng found)")
                         continue
 
                     # Safe Pricing
-                    price_data = item['item'].get('price_including_taxes', {})
+                    price_data = item['item'].get('item_price', {}) # Changed to item_price based on your log
                     price = price_data.get('minor_units', 0) / 100
                     currency = price_data.get('code', 'USD')
                     
-                    value_data = item['item'].get('value_including_taxes', {})
+                    value_data = item['item'].get('item_value', {}) # Changed to item_value based on your log
                     original_price = value_data.get('minor_units', 0) / 100
+
+                    # Image extraction (updated based on your log)
+                    cover_img = item['item'].get('cover_picture', {}).get('current_url')
+                    if not cover_img:
+                        cover_img = item['store'].get('cover_picture', {}).get('current_url')
 
                     store_obj = {
                         "id": store_id,
-                        "name": item['store']['store_name'],
+                        "name": item['display_name'], # Using display_name from your log
                         "lat": lat,
                         "lng": lng,
                         "available": item['items_available'],
@@ -126,14 +121,14 @@ def fetch_data():
                         "category": item['item'].get('item_category', 'Unknown'),
                         "pickup_start": item.get('pickup_interval', {}).get('start'),
                         "pickup_end": item.get('pickup_interval', {}).get('end'),
-                        "tags": [t['text'] for t in item['item'].get('diet_tags', [])],
-                        "cover_image": item['item'].get('cover_picture', {}).get('current_url')
+                        "tags": [t['description'] for t in item.get('item_tags', [])], # Updated tags logic
+                        "cover_image": cover_img
                     }
                     
                     all_stores[store_id] = store_obj
                     
                 except Exception as e:
-                    print(f"      ❌ Failed parsing item: {e}")
+                    # print(f"      ❌ Failed parsing item: {e}")
                     continue
 
         except Exception as e:
