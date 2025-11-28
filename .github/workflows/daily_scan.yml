@@ -1,0 +1,41 @@
+name: NYC Food Scan
+
+on:
+  schedule:
+    # Runs at 02:00 UTC (9:00 PM EST) and 14:00 UTC (9:00 AM EST)
+    - cron: '0 2,14 * * *'
+  workflow_dispatch: # Allows manual run button
+
+permissions:
+  contents: write
+
+jobs:
+  update-map:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: pip3 install -r requirements.txt
+
+      - name: Run Scanner
+        env:
+          TGTG_ACCESS_TOKEN: ${{ secrets.TGTG_ACCESS_TOKEN }}
+          TGTG_REFRESH_TOKEN: ${{ secrets.TGTG_REFRESH_TOKEN }}
+          TGTG_USER_ID: ${{ secrets.TGTG_USER_ID }}
+        run: python3 tgtg_nyc_scanner.py
+
+      - name: Commit and Push Data
+        run: |
+          git config --global user.name "TGTG Bot"
+          git config --global user.email "bot@github.com"
+          git add nyc_data.json
+          git commit -m "Update food data: $(date)" || echo "No changes to commit"
+          git push
