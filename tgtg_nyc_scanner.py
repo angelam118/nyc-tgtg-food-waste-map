@@ -12,7 +12,7 @@ try:
         'user_id': os.environ.get("TGTG_USER_ID"),
         'cookie': os.environ.get("TGTG_COOKIE", "datadome=123") 
     }
-    # Fallback for local testing if env vars are missing
+    # Fallback for local testing
     if not TGTG_CREDS['access_token']:
         # PASTE YOUR HARDCODED TOKENS HERE IF RUNNING LOCALLY
         TGTG_CREDS['access_token'] = 'YOUR_ACCESS_TOKEN'
@@ -39,19 +39,22 @@ def get_location(store_item):
     
     # Method 1: direct in 'location'
     loc = store_item.get('location', {})
-    lat = loc.get('latitude')
-    lng = loc.get('longitude')
+    if loc:
+        lat = loc.get('latitude')
+        lng = loc.get('longitude')
 
     # Method 2: nested in 'location' -> 'location'
-    if not lat and 'location' in loc:
-        lat = loc['location'].get('latitude')
-        lng = loc['location'].get('longitude')
+    if not lat and loc and 'location' in loc:
+        nested = loc.get('location', {})
+        lat = nested.get('latitude')
+        lng = nested.get('longitude')
 
     # Method 3: 'store_location' key
     if not lat:
         loc = store_item.get('store_location', {})
-        lat = loc.get('latitude')
-        lng = loc.get('longitude')
+        if loc:
+            lat = loc.get('latitude')
+            lng = loc.get('longitude')
         
     return lat, lng
 
@@ -64,6 +67,9 @@ def fetch_data():
     all_stores = {} 
     
     print(f"🚀 Starting NYC Wide Scan ({len(SCAN_ZONES)} Zones)...")
+    
+    # Debug flag to print only the first item once
+    debug_printed = False
 
     for zone in SCAN_ZONES:
         print(f"   📍 Scanning {zone['name']}...", end=" ")
@@ -78,6 +84,14 @@ def fetch_data():
             print(f"Found {len(items)} items.")
             
             for item in items:
+                # --- DEBUG: PRINT RAW DATA FOR FIRST ITEM ---
+                if not debug_printed:
+                    print("\n--- DEBUG: RAW ITEM DUMP (Copy this!) ---")
+                    print(json.dumps(item, indent=2, default=str))
+                    print("------------------------------------------\n")
+                    debug_printed = True
+                # --------------------------------------------
+
                 try:
                     store_id = item['item']['item_id']
                     if store_id in all_stores: continue
@@ -86,8 +100,8 @@ def fetch_data():
                     lat, lng = get_location(item['store'])
                     
                     if not lat or not lng: 
-                        # Print warning if we find a store but can't find its location
-                        # print(f"      ⚠️ No location for {item['store']['store_name']}")
+                        # Debugging output to see failures
+                        # print(f"      ⚠️ Skipped {item['store']['store_name']} (No Lat/Lng found)")
                         continue
 
                     # Safe Pricing
