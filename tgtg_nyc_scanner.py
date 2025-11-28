@@ -24,8 +24,15 @@ except KeyError:
     print("❌ Error: Credentials issue.")
     exit(1)
 
-# Mimic a real iPhone to avoid being blocked
-USER_AGENT = "TGTG/24.9.1 Darwin/21.6.0 (iPhone 13; iOS 15.6.1; Scale/3.00)"
+# --- USER AGENT ROTATION ---
+# We pick a random modern iPhone fingerprint each time to evade blocks
+USER_AGENTS = [
+    "TGTG/25.11.0 Darwin/23.5.0 (iPhone 15 Pro Max; iOS 17.5.1; Scale/3.00)",
+    "TGTG/25.11.0 Darwin/23.4.0 (iPhone 14 Pro; iOS 17.4.1; Scale/3.00)",
+    "TGTG/25.10.0 Darwin/23.2.0 (iPhone 13; iOS 17.2; Scale/3.00)",
+    "TGTG/24.9.1 Darwin/22.1.0 (iPhone 12; iOS 16.1; Scale/3.00)"
+]
+CURRENT_UA = random.choice(USER_AGENTS)
 
 # --- BALANCED NYC GRID (8 Strategic Zones) ---
 # We split dense boroughs (Manhattan/Brooklyn/Queens) into 2 parts.
@@ -85,10 +92,11 @@ def save_data(all_stores):
         json.dump(final_data, f, indent=2)
 
 def fetch_data():
+    print(f"🕵️ Using User-Agent: {CURRENT_UA}")
     client = TgtgClient(access_token=TGTG_CREDS['access_token'], 
                         refresh_token=TGTG_CREDS['refresh_token'],
                         cookie=TGTG_CREDS['cookie'],
-                        user_agent=USER_AGENT) 
+                        user_agent=CURRENT_UA) 
     client.user_id = TGTG_CREDS['user_id']
 
     all_stores = {} 
