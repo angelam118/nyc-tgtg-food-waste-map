@@ -27,44 +27,27 @@ except KeyError:
 # Mimic a real iPhone to avoid being blocked
 USER_AGENT = "TGTG/24.9.1 Darwin/21.6.0 (iPhone 13; iOS 15.6.1; Scale/3.00)"
 
-# --- DETAILED NYC GRID (25 Zones) ---
-# We use small radii (4km) to ensure we don't hit the 400-item API limit per request
+# --- OPTIMIZED NYC GRID (10 Core Zones) ---
+# Reduced from 25 to 10 to prevent blocking and speed up scanning.
+# Radius increased to 6km to maintain coverage with fewer requests.
 SCAN_ZONES = [
-    # MANHATTAN
-    {"name": "Manhattan - FiDi/Tribeca", "lat": 40.7127, "long": -74.0059},
-    {"name": "Manhattan - Lower East Side", "lat": 40.7150, "long": -73.9843},
-    {"name": "Manhattan - Chelsea/Midtown", "lat": 40.7484, "long": -73.9967},
-    {"name": "Manhattan - Upper West Side", "lat": 40.7870, "long": -73.9754},
-    {"name": "Manhattan - Upper East Side", "lat": 40.7736, "long": -73.9566},
-    {"name": "Manhattan - Harlem/Heights", "lat": 40.8200, "long": -73.9493},
-    {"name": "Manhattan - Inwood", "lat": 40.8677, "long": -73.9212},
+    # MANHATTAN (Consolidated)
+    {"name": "Manhattan - Lower (FiDi/Village)", "lat": 40.725, "long": -74.00},
+    {"name": "Manhattan - Mid (Chelsea/Midtown)", "lat": 40.755, "long": -73.98},
+    {"name": "Manhattan - Upper (UWS/UES/Harlem)", "lat": 40.800, "long": -73.95},
+    {"name": "Manhattan - North (Inwood/Wash Hts)", "lat": 40.850, "long": -73.93},
 
-    # BROOKLYN
-    {"name": "Brooklyn - Downtown/Heights", "lat": 40.6932, "long": -73.9860},
-    {"name": "Brooklyn - Williamsburg", "lat": 40.7165, "long": -73.9557},
-    {"name": "Brooklyn - Park Slope", "lat": 40.6655, "long": -73.9820},
-    {"name": "Brooklyn - Bed-Stuy/Bushwick", "lat": 40.6900, "long": -73.9350},
-    {"name": "Brooklyn - Flatbush", "lat": 40.6400, "long": -73.9550},
-    {"name": "Brooklyn - Sunset Park/Bay Ridge", "lat": 40.6413, "long": -74.0150},
-    {"name": "Brooklyn - Coney Island/Bensonhurst", "lat": 40.5950, "long": -73.9900},
-    {"name": "Brooklyn - East NY", "lat": 40.6600, "long": -73.8900},
+    # BROOKLYN (Consolidated)
+    {"name": "Brooklyn - North (Williamsburg/Bushwick)", "lat": 40.710, "long": -73.94},
+    {"name": "Brooklyn - Core (Downtown/Park Slope)", "lat": 40.670, "long": -73.98},
+    {"name": "Brooklyn - South (Flatbush/Bay Ridge)", "lat": 40.630, "long": -74.00},
 
-    # QUEENS
-    {"name": "Queens - LIC/Astoria", "lat": 40.7550, "long": -73.9250},
-    {"name": "Queens - Jackson Heights", "lat": 40.7500, "long": -73.8800},
-    {"name": "Queens - Flushing", "lat": 40.7600, "long": -73.8300},
-    {"name": "Queens - Forest Hills", "lat": 40.7200, "long": -73.8450},
-    {"name": "Queens - Jamaica", "lat": 40.7000, "long": -73.8000},
-    {"name": "Queens - Rockaways", "lat": 40.5900, "long": -73.8000},
+    # QUEENS (Consolidated)
+    {"name": "Queens - West (LIC/Astoria/Sunnyside)", "lat": 40.750, "long": -73.91},
+    {"name": "Queens - Central (Forest Hills/Flushing)", "lat": 40.730, "long": -73.83},
 
-    # BRONX
-    {"name": "Bronx - South", "lat": 40.8150, "long": -73.9150},
-    {"name": "Bronx - Fordham", "lat": 40.8600, "long": -73.8900},
-    {"name": "Bronx - East", "lat": 40.8500, "long": -73.8400},
-
-    # STATEN ISLAND
-    {"name": "Staten Island - North", "lat": 40.6300, "long": -74.1200},
-    {"name": "Staten Island - Mall Area", "lat": 40.5800, "long": -74.1600}
+    # BRONX (Consolidated)
+    {"name": "Bronx - Core", "lat": 40.850, "long": -73.89},
 ]
 
 OUTPUT_FILE = 'nyc_data.json'
@@ -93,16 +76,26 @@ def get_location(store_item):
         
     return lat, lng
 
+def save_data(all_stores):
+    """ Helper to save data immediately """
+    final_data = {
+        "updated_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+        "total_stores": len(all_stores),
+        "stores": list(all_stores.values())
+    }
+    with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
+        json.dump(final_data, f, indent=2)
+
 def fetch_data():
     client = TgtgClient(access_token=TGTG_CREDS['access_token'], 
                         refresh_token=TGTG_CREDS['refresh_token'],
                         cookie=TGTG_CREDS['cookie'],
-                        user_agent=USER_AGENT) # Set User Agent to avoid bot detection
+                        user_agent=USER_AGENT) 
     client.user_id = TGTG_CREDS['user_id']
 
     all_stores = {} 
     
-    print(f"🚀 Starting High-Res NYC Grid Scan ({len(SCAN_ZONES)} Zones)...")
+    print(f"🚀 Starting Optimized NYC Scan ({len(SCAN_ZONES)} Zones)...")
     
     for zone in SCAN_ZONES:
         print(f"   📍 {zone['name']}...", end=" ", flush=True)
@@ -111,7 +104,7 @@ def fetch_data():
                 favorites_only=False,
                 latitude=zone['lat'],
                 longitude=zone['long'],
-                radius=4, 
+                radius=6, # Increased radius for fewer requests
                 page_size=400 
             )
             print(f"Found {len(items)} items.")
@@ -163,31 +156,23 @@ def fetch_data():
                     
                 except Exception:
                     continue
+            
+            # INCREMENTAL SAVE: Save after every zone so we don't lose data if blocked later
+            save_data(all_stores)
 
         except Exception as e:
             # Check for 403 (Blocked)
             if "403" in str(e):
-                print(f"\n      ⚠️ BLOCKED (403). Pausing 60s to cool down...", end=" ")
-                time.sleep(60)
+                print(f"\n      ⚠️ BLOCKED (403). Waiting 2 minutes before next zone...")
+                time.sleep(120) # 2 minute cool down
             else:
                 print(f"\n      ⚠️ Error: {e}", end=" ")
         
-        # Random sleep between 10 and 20 seconds to look human
-        nap_time = random.uniform(10, 20)
+        # Random sleep between 15 and 30 seconds to look human
+        nap_time = random.uniform(15, 30)
         time.sleep(nap_time) 
 
-    # Prepare Data
-    final_data = {
-        "updated_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-        "total_stores": len(all_stores),
-        "stores": list(all_stores.values())
-    }
-
-    # Save to file
-    with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
-        json.dump(final_data, f, indent=2)
-
-    print(f"\n✅ Scan Complete! Saved {len(all_stores)} unique stores to {OUTPUT_FILE}")
+    print(f"\n✅ Scan Complete! Final count: {len(all_stores)} unique stores.")
 
 if __name__ == "__main__":
     fetch_data()
